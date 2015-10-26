@@ -1,0 +1,2454 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0StopAllTasks_inline_MMX_Init	6	1	0	4	2
+1	__D0MMX_FlushPort	6	1	4	4	17
+2	__D0main	6	1	8	4	18
+3	__signed_stack_001main	6	1	12	4	8
+4	__unsigned_stack_001MMX_WaitUntilTachoDone	5	1	16	4	2
+5	__MMX_Run_Tachometer_7qG2_tachometer_7qG2_000	6	1	20	4	4
+6	__D0MMX_i2cread_2_bytes	6	1	24	4	7
+7	__D0MMX_i2cread_1_byte	6	1	28	4	23
+8	__DU0MMX_i2cread_1_byte	5	1	32	4	4
+9	__unsigned_stack_001MMX_i2cread_1_byte	5	1	36	4	4
+10	__signed_stack_001MMX_i2cread_1_byte	6	1	40	4	6
+11	__RBtnMutex	9	0	44	4	6
+12	__constVal65280	6	0	48	4	1
+13	__signed_stack_001MMX_FlushPort	6	1	52	4	6
+14	__MMX_Run_Tachometer_7qG2_tch_7qG2_000	6	1	56	4	7
+15	__signed_stack_002main	6	1	60	4	4
+16	__signed_stack_003main	6	1	64	4	2
+17	__SPTArgsMutex	9	0	68	4	6
+18	__D0MMX_WriteData9	6	1	72	4	11
+19	__unsigned_stack_001MMX_WriteData9	5	1	76	4	4
+20	__D0MMX_Run_Tachometer	6	1	80	4	38
+21	__DU0MMX_Run_Tachometer	5	1	84	4	2
+22	__D0MMX_SendCommand	6	1	88	4	21
+23	__D0MMX_WaitUntilTachoDone	6	1	92	4	3
+24	__D0MMX_WriteByte	6	1	96	4	12
+25	__D0MMX_Stop	6	1	100	4	33
+26	__DU0MMX_WriteByte	5	1	104	4	2
+27	__D0MMX_Init	6	1	108	4	24
+28	__DU0MMX_Init	5	1	112	4	5
+29	__DU0MMX_i2cread_2_bytes	5	1	116	4	8
+30	__DU0SetSensorLowspeed_inline_MMX_Init	5	1	120	4	2
+31	__D0SetSensorLowspeed_inline_MMX_Init	6	1	124	4	3
+32	__DU0MMX_IsTachoDone	5	1	128	4	7
+33	__DU0MMX_WriteData9	5	1	132	4	2
+34	__unsigned_stack_001MMX_WriteByte	5	1	136	4	4
+35	__D0MMX_IsTachoDone	6	1	140	4	23
+36	__constVal16711680	6	0	144	4	1
+37	__CLSRMutex0	9	0	148	4	8
+38	__CLSCSMutex1	9	0	152	4	28
+39	__CLSWMutex0	9	0	156	4	10
+40	__signed_stack_002MMX_IsTachoDone	6	1	160	4	2
+41	__CLSWMutex1	9	0	164	4	10
+42	__CLSWMutex2	9	0	168	4	10
+43	__CLSRMutex2	9	0	172	4	8
+44	__CLSRMutex1	9	0	176	4	8
+45	__CLSCSMutex2	9	0	180	4	28
+46	__unsigned_stack_001MMX_IsTachoDone	5	1	184	4	6
+47	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	188	4	2
+48	__signed_stack_001MMX_Stop	6	1	192	4	2
+49	__unsigned_stack_002MMX_Stop	5	1	196	4	2
+50	__unsigned_stack_001MMX_Stop	5	1	200	4	14
+51	__signed_stack_001MMX_SendCommand	6	1	204	4	4
+52	__signed_stack_001MMX_Run_Tachometer	6	1	208	4	10
+53	__CLSCSMutex0	9	0	212	4	28
+54	__unsigned_stack_001MMX_Run_Tachometer	5	1	216	4	16
+55	__signed_stack_002MMX_Run_Tachometer	6	1	220	4	6
+56	__signed_stack_003MMX_Init	6	1	224	4	4
+57	__signed_stack_002MMX_Init	6	1	228	4	12
+58	__MMX_Run_Degrees_7qG2_degrees_7qG2_000	6	1	232	4	2
+59	__RLSBmutex3	9	0	236	4	2
+60	__signed_stack_001MMX_i2cread_2_bytes	6	1	240	4	6
+61	__constVal4278190080	5	0	244	4	1
+62	__signed_stack_001MMX_Init	6	1	248	4	14
+63	__signed_stack_002MMX_i2cread_2_bytes	6	1	252	4	4
+64	__TextOutMutex	9	0	256	4	10
+65	__signed_stack_001MMX_IsTachoDone	6	1	260	4	14
+66	__CLSRMutex3	9	0	264	4	8
+67	__CLSCSMutex3	9	0	268	4	28
+68	__CLSWMutex3	9	0	272	4	10
+69	__RLSBmutex1	9	0	276	4	2
+70	__RLSBmutex0	9	0	280	4	2
+71	__RLSBmutex2	9	0	284	4	2
+72	__MMX_i2cread_2_bytes_7qG2_count_7qG2_000	4	1	288	2	3
+73	__MMX_SendCommand_7qG2_status_7qG2_000	4	1	290	2	4
+74	__constVal128	4	0	292	2	1
+75	__MMX_FlushPort_7qG2_n_7qG2_000	4	1	294	2	3
+76	__constVal255	4	0	296	2	1
+77	__MMX_WriteData9_7qG2_data3_7qG2_000	1	1	298	1	3
+78	__MMX_WriteData9_7qG2_data2_7qG2_000	1	1	299	1	3
+79	__MMX_WriteData9_7qG2_data1_7qG2_000	1	1	300	1	3
+80	__MMX_WriteData9_7qG2_data4_7qG2_000	1	1	301	1	3
+81	__MMX_WriteData9_7qG2_data7_7qG2_000	1	1	302	1	3
+82	__MMX_WriteData9_7qG2_data6_7qG2_000	1	1	303	1	3
+83	__MMX_WriteData9_7qG2_data5_7qG2_000	1	1	304	1	3
+84	__MMX_WriteData9_7qG2_addr_7qG2_000	1	1	305	1	3
+85	__MMX_SendCommand_7qG2_cmd_7qG2_000	1	1	306	1	8
+86	__MMX_SendCommand_7qG2_addr_7qG2_000	1	1	307	1	8
+87	__MMX_SendCommand_7qG2_port_7qG2_000	1	1	308	1	11
+88	__MMX_SendCommand_return	1	1	309	1	10
+89	__MMX_WriteData9_7qG2_port_7qG2_000	1	1	310	1	5
+90	__constVal65	2	0	311	1	1
+91	__MMX_SendCommand_7qG2_nByteReady_7qG2_000	1	1	312	1	2
+92	__MMX_WriteData9_7qG2_data8_7qG2_000	1	1	313	1	3
+93	__MMX_WriteByte_7qG2_nByteReady_7qG2_000	1	1	314	1	3
+94	__MMX_WriteByte_7qG2_loop_7qG2_000	1	1	315	1	6
+95	__MMX_WriteByte_return	1	1	316	1	7
+96	__MMX_WriteByte_7qG2_n_7qG2_000	1	1	317	1	2
+97	__MMX_Init_7qG2_profile_7qG2_000	1	1	318	1	2
+98	__MMX_Init_7qG2_addr_7qG2_000	1	1	319	1	5
+99	__MMX_Init_7qG2_port_7qG2_000	1	1	320	1	6
+100	__MMX_WriteByte_7qG2_data_7qG2_000	1	1	321	1	5
+101	__MMX_WriteData9_7qG2_loop_7qG2_000	1	1	322	1	6
+102	__MMX_WriteData9_return	1	1	323	1	4
+103	__MMX_WriteData9_7qG2_data9_7qG2_000	1	1	324	1	3
+104	__MMX_WriteData9_7qG2_nByteReady_7qG2_000	1	1	325	1	3
+105	__MMX_WriteByte_7qG2_location_7qG2_000	1	1	326	1	5
+106	__MMX_WriteByte_7qG2_i2cAddr_7qG2_000	1	1	327	1	5
+107	__MMX_WriteByte_7qG2_port_7qG2_000	1	1	328	1	7
+108	__MMX_Run_Degrees_7qG2_speed_7qG2_000	1	1	329	1	2
+109	__MMX_Run_Degrees_7qG2_direction_7qG2_000	1	1	330	1	2
+110	__MMX_Run_Degrees_7qG2_next_action_7qG2_000	1	1	331	1	2
+111	__MMX_Run_Degrees_7qG2_wait_for_completion_7qG2_000	1	1	332	1	2
+112	__MMX_Run_Degrees_7qG2_motor_number_7qG2_000	1	1	333	1	2
+113	__MMX_Run_Tachometer_7qG2_stp4_7qG2_000	1	1	334	1	3
+114	__MMX_Run_Tachometer_7qG2_stp3_7qG2_000	1	1	335	1	3
+115	__MMX_Run_Degrees_7qG2_addr_7qG2_000	1	1	336	1	2
+116	__MMX_Run_Degrees_7qG2_port_7qG2_000	1	1	337	1	2
+117	____initialize_global_data_return	1	1	338	1	3
+118	__MMX_Stop_return	1	1	339	1	4
+119	__constVal24	2	0	340	1	1
+120	__constValNeg1	2	0	341	1	1
+121	__MMX_Stop_7qG2_next_action_7qG2_000	1	1	342	1	3
+122	__MMX_Stop_7qG2_port_7qG2_000	1	1	343	1	8
+123	__MMX_Run_Degrees_return	1	1	344	1	4
+124	__MMX_Stop_7qG2_motor_number_7qG2_000	1	1	345	1	7
+125	__MMX_Stop_7qG2_addr_7qG2_000	1	1	346	1	7
+126	__MMX_Run_Tachometer_7qG2_stp2_7qG2_000	1	1	347	1	3
+127	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init	1	1	348	1	2
+128	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init	1	1	349	1	2
+129	__MMX_Run_Tachometer_7qG2_addr_7qG2_000	1	1	350	1	5
+130	__MMX_Run_Tachometer_7qG2_port_7qG2_000	1	1	351	1	7
+131	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init	1	1	352	1	2
+132	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_MMX_Init	1	1	353	1	4
+133	__MMX_Init_return	1	1	354	1	3
+134	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init	1	1	355	1	2
+135	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_MMX_Init	1	1	356	1	2
+136	__MMX_Run_Tachometer_return	1	1	357	1	4
+137	__MMX_Run_Tachometer_7qG2_next_action_7qG2_000	1	1	358	1	3
+138	__MMX_Run_Tachometer_7qG2_stp1_7qG2_000	1	1	359	1	3
+139	__MMX_Run_Tachometer_7qG2_ctrl_7qG2_000	1	1	360	1	16
+140	__MMX_Run_Tachometer_7qG2_wait_for_completion_7qG2_000	1	1	361	1	2
+141	__MMX_Run_Tachometer_7qG2_direction_7qG2_000	1	1	362	1	3
+142	__MMX_Run_Tachometer_7qG2_motor_number_7qG2_000	1	1	363	1	6
+143	__MMX_Run_Tachometer_7qG2_relative_7qG2_000	1	1	364	1	2
+144	__MMX_Run_Tachometer_7qG2_speed_7qG2_000	1	1	365	1	3
+145	__tmpsbyteMMX_SendCommand	2	1	366	1	2
+146	__zfMMX_SendCommand	1	1	367	1	6
+147	__zfMMX_Stop	1	1	368	1	25
+148	__zfMMX_Run_Tachometer	1	1	369	1	30
+149	__zfMMX_Init	1	1	370	1	2
+150	__constVal2	2	0	371	1	2
+151	__zfMMX_IsTachoDone	1	1	372	1	22
+152	__zfMMX_WaitUntilTachoDone	1	1	373	1	3
+153	__MMX_FlushPort_return	1	1	374	1	5
+154	__MMX_FlushPort_7qG2_nByteReady_7qG2_000	1	1	375	1	3
+155	____ResetSensorSubroutine_return	1	1	376	1	3
+156	__MMX_FlushPort_7qG2_port_7qG2_000	1	1	377	1	7
+157	__zfMMX_WriteByte	1	1	378	1	6
+158	__zfMMX_WriteData9	1	1	379	1	6
+159	__zfSetSensorLowspeed_inline_MMX_Init	1	1	380	1	2
+160	__constVal10	2	0	381	1	1
+161	__constVal8	2	0	382	1	6
+162	__constVal16	2	0	383	1	3
+163	__RLSReadPort	1	1	384	1	4
+164	__RLSBResultVar	2	1	385	1	8
+165	__RLSBytesCountVar	1	1	386	1	8
+166	__RLSBIterationsVar	1	1	387	1	4
+167	__ArrHelper__MMX_i2cread_2_bytes_98_0	1	1	388	1	4
+168	__zfMMX_FlushPort	1	1	389	1	9
+169	__zfMMX_i2cread_1_byte	1	1	390	1	12
+170	__zfMMX_i2cread_2_bytes	1	1	391	1	5
+171	____ReadLSBytesVar_return	1	1	392	1	3
+172	__ArrHelper__MMX_i2cread_1_byte_98_0	1	1	393	1	2
+173	__ArrHelper__MMX_IsTachoDone_98_0	1	1	394	1	7
+174	__zfmain	1	1	395	1	4
+175	__MMX_i2cread_2_bytes_7qG2_port_7qG2_000	1	1	396	1	4
+176	__MMX_i2cread_1_byte_7qG2_n_7qG2_000	1	1	397	1	2
+177	__MMX_i2cread_1_byte_7qG2_loop_7qG2_000	1	1	398	1	3
+178	__MMX_IsTachoDone_7qG2_addr_7qG2_000	1	1	399	1	4
+179	__MMX_IsTachoDone_7qG2_port_7qG2_000	1	1	400	1	4
+180	__constVal0	2	1	401	1	10
+181	__MMX_i2cread_1_byte_return	1	1	402	1	5
+182	__MMX_i2cread_1_byte_7qG2_nByteReady_7qG2_000	1	1	403	1	4
+183	__MMX_WaitUntilTachoDone_7qG2_motor_number_7qG2_000	1	1	404	1	2
+184	__constVal32	2	0	405	1	1
+185	__constVal1	2	0	406	1	10
+186	__MMX_WaitUntilTachoDone_7qG2_addr_7qG2_000	1	1	407	1	2
+187	__MMX_WaitUntilTachoDone_7qG2_port_7qG2_000	1	1	408	1	2
+188	__MMX_IsTachoDone_return	1	1	409	1	7
+189	__MMX_IsTachoDone_7qG2_motor_number_7qG2_000	1	1	410	1	4
+190	__MMX_IsTachoDone_7qG2_result2_7qG2_000	1	1	411	1	2
+191	__MMX_IsTachoDone_7qG2_result_7qG2_000	1	1	412	1	4
+192	__constVal4	2	0	413	1	1
+193	__MMX_i2cread_2_bytes_return	1	1	414	1	6
+194	__MMX_i2cread_2_bytes_7qG2_nByteReady_7qG2_000	1	1	415	1	2
+195	__constVal3	2	0	416	1	3
+196	__ResetSensorTmp	1	1	417	1	2
+197	__MMX_i2cread_2_bytes_7qG2_addr_7qG2_000	1	1	418	1	3
+198	__ResetSensorPort	1	1	419	1	3
+199	__MMX_i2cread_2_bytes_7qG2_reg_7qG2_000	1	1	420	1	3
+200	__MMX_i2cread_1_byte_7qG2_addr_7qG2_000	1	1	421	1	2
+201	__MMX_i2cread_1_byte_7qG2_reg_7qG2_000	1	1	422	1	2
+202	__MMX_i2cread_1_byte_7qG2_port_7qG2_000	1	1	423	1	6
+203	__MMX_WaitUntilTachoDone_return	1	1	424	1	3
+204	__RBtnArgs	8	0	5	8	12
+205	__RBtnArgs.Result	2	1	428	1	12
+206	__RBtnArgs.Index	1	1	429	1	12
+207	__RBtnArgs.Pressed	1	1	430	1	12
+208	__RBtnArgs.Count	1	1	431	1	12
+209	__RBtnArgs.Reset	1	1	432	1	12
+210	__TextOutArgs	8	0	4	16	30
+211	__TextOutArgs.Result	2	1	436	1	30
+212	__TextOutArgs.Location	8	0	2	4	30
+213	__TextOutArgs.Location.X	4	1	440	2	30
+214	__TextOutArgs.Location.Y	4	1	442	2	30
+215	__TextOutArgs.Text	7	0	444	4	30
+216	__TextOutArgs.Text.Text_type	1	0	0	1	0
+217	__TextOutArgs.Options	5	1	448	4	30
+218	__CLSRArgs0	8	0	4	12	20
+219	__CLSRArgs0.Result	2	1	452	1	20
+220	__CLSRArgs0.Port	1	1	453	1	20
+221	__CLSRArgs0.Buffer	7	0	454	4	20
+222	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+223	__CLSRArgs0.BufferLen	1	1	456	1	20
+224	__SPTArgs	8	0	5	8	18
+225	__SPTArgs.Result	2	1	460	1	18
+226	__SPTArgs.Frequency	3	1	462	2	18
+227	__SPTArgs.Duration	3	1	464	2	18
+228	__SPTArgs.Loop	1	1	466	1	18
+229	__SPTArgs.Volume	1	1	467	1	18
+230	__CLSCSArgs0	8	0	3	4	56
+231	__CLSCSArgs0.Result	2	1	468	1	56
+232	__CLSCSArgs0.Port	1	1	469	1	56
+233	__CLSCSArgs0.BytesReady	1	1	470	1	56
+234	__CLSWArgs0	8	0	4	12	25
+235	__CLSWArgs0.Result	2	1	472	1	25
+236	__CLSWArgs0.Port	1	1	473	1	25
+237	__CLSWArgs0.Buffer	7	0	474	4	25
+238	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+239	__CLSWArgs0.ReturnLen	1	1	476	1	25
+240	__main_7qG2_msg_7qG2_000	7	0	478	4	2
+241	__main_7qG2_msg_7qG2_000.__main_7qG2_msg_7qG2_000_type	1	0	0	1	0
+242	__constStr0013	7	0	480	4	1
+243	__constStr0013.__constStr0013_type	1	1	0	1	0
+244	__RLSLastGoodReadVar	7	0	482	4	2
+245	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+246	__MMX_i2cread_2_bytes_7qG2_buf_7qG2_000	7	0	484	4	4
+247	__MMX_i2cread_2_bytes_7qG2_buf_7qG2_000.__MMX_i2cread_2_bytes_7qG2_buf_7qG2_000_type	1	0	0	1	0
+248	__MMX_WriteData9_7qG2_cmdbuf_7qG2_000	7	0	486	4	2
+249	__MMX_WriteData9_7qG2_cmdbuf_7qG2_000.__MMX_WriteData9_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+250	__MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000	7	0	488	4	8
+251	__MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000.__MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000_type	1	0	0	1	0
+252	__MMX_i2cread_2_bytes_7qG2_cmdbuf_7qG2_000	7	0	490	4	2
+253	__MMX_i2cread_2_bytes_7qG2_cmdbuf_7qG2_000.__MMX_i2cread_2_bytes_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+254	__MMX_IsTachoDone_7qG2_res_7qG2_000	7	0	492	4	8
+255	__MMX_IsTachoDone_7qG2_res_7qG2_000.__MMX_IsTachoDone_7qG2_res_7qG2_000_type	1	0	0	1	0
+256	__MMX_SendCommand_7qG2_cmdBuf_7qG2_000	7	0	494	4	2
+257	__MMX_SendCommand_7qG2_cmdBuf_7qG2_000.__MMX_SendCommand_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
+258	__MMX_i2cread_1_byte_7qG2_cmdbuf_7qG2_000	7	0	496	4	2
+259	__MMX_i2cread_1_byte_7qG2_cmdbuf_7qG2_000.__MMX_i2cread_1_byte_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+260	__MMX_i2cread_1_byte_7qG2_buf_7qG2_000	7	0	498	4	3
+261	__MMX_i2cread_1_byte_7qG2_buf_7qG2_000.__MMX_i2cread_1_byte_7qG2_buf_7qG2_000_type	1	0	0	1	0
+262	__MMX_WriteByte_7qG2_cmdbuf_7qG2_000	7	0	500	4	2
+263	__MMX_WriteByte_7qG2_cmdbuf_7qG2_000.__MMX_WriteByte_7qG2_cmdbuf_7qG2_000_type	1	0	0	1	0
+264	__strbufMMX_Init	7	0	502	4	8
+265	__strbufMMX_Init.__strbufMMX_Init_type	1	0	0	1	0
+266	__constStr0012	7	0	504	4	1
+267	__constStr0012.__constStr0012_type	1	1	0	1	0
+268	__RLSReadBufVar	7	0	506	4	8
+269	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+270	__strbufmain	7	0	508	4	4
+271	__strbufmain.__strbufmain_type	1	0	0	1	0
+272	__constStr0009	7	0	510	4	1
+273	__constStr0009.__constStr0009_type	1	1	0	1	0
+274	__MMX_FlushPort_7qG2_buf_7qG2_000	7	0	512	4	3
+275	__MMX_FlushPort_7qG2_buf_7qG2_000.__MMX_FlushPort_7qG2_buf_7qG2_000_type	1	0	0	1	0
+276	__constStr0011	7	0	514	4	1
+277	__constStr0011.__constStr0011_type	1	1	0	1	0
+278	__constStr0010	7	0	516	4	1
+279	__constStr0010.__constStr0010_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	7	0	#line 7 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	8	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	7	2	#line 7 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	11	2	#line 11 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	12	2		set __MMX_Init_7qG2_port_7qG2_000, 0
+0	11	5	#line 11 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	11	5	#line 11 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	12	5		set __MMX_Init_7qG2_addr_7qG2_000, 6
+0	11	8	#line 11 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	11	8	#line 11 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	12	8		set __MMX_Init_7qG2_profile_7qG2_000, 0
+0	11	11	#line 11 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	11	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	11		subcall MMX_Init, __MMX_Init_return
+0	13	13	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	13	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	13		set __MMX_Run_Degrees_7qG2_port_7qG2_000, 0
+0	13	16	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	16	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	16		set __MMX_Run_Degrees_7qG2_addr_7qG2_000, 6
+0	13	19	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	19	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	19		set __MMX_Run_Degrees_7qG2_motor_number_7qG2_000, 3
+0	13	22	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	22	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	22		set __MMX_Run_Degrees_7qG2_direction_7qG2_000, 1
+0	13	25	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	25	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	25		set __MMX_Run_Degrees_7qG2_speed_7qG2_000, 90
+0	13	28	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	28	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	28		set __MMX_Run_Degrees_7qG2_degrees_7qG2_000, 360
+0	13	31	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	31	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	31		set __MMX_Run_Degrees_7qG2_wait_for_completion_7qG2_000, 0
+0	13	34	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	13	34	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	14	34		set __MMX_Run_Degrees_7qG2_next_action_7qG2_000, 1
+0	13	37	#line 13 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	15	37	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	16	37		subcall MMX_Run_Degrees, __MMX_Run_Degrees_return
+0	15	39	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	15	39	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	15	39	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	16	39		set __signed_stack_001main, 400
+0	15	42	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	15	42	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	16	42		set __signed_stack_002main, 50
+0	15	45	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	15	45	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	16	45		set __signed_stack_003main, 4
+0	15	48	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	15	48	#line 15 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	16	48		set __D0main, 0
+0	18	51	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	51		acquire __SPTArgsMutex
+0	18	52	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	52		mov __SPTArgs.Frequency, __signed_stack_001main
+0	18	55	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	55		mov __SPTArgs.Duration, __signed_stack_002main
+0	18	58	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	58		mov __SPTArgs.Volume, __signed_stack_003main
+0	18	61	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	61		mov __SPTArgs.Loop, __D0main
+0	18	64	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	64		syscall 10, __SPTArgs
+0	18	67	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	67		mov __D0main, __SPTArgs.Result
+0	18	70	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	70		release __SPTArgsMutex
+0	18	71	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	18	71	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	19	71		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	18	74	#line 18 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	7921	74	#line 7921 "NXCDefs.h"
+0	7922	74		wait 200
+0	7921	76	#line 7921 "NXCDefs.h"
+0	19	76	#line 19 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	20	76	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	21	76		strcat __strbufmain, __constStr0013
+0	20	80	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	21	80		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	20	82	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	20	82	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	21	82		set __signed_stack_001main, 0
+0	20	85	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	20	85	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	21	85		set __signed_stack_002main, 48
+0	20	88	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	20	88	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	21	88		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	20	92	#line 20 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	21	92		set __D0main, 0
+0	22	95	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	95		acquire __TextOutMutex
+0	22	96	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	96		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	22	99	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	99		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	22	102	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	102		mov __TextOutArgs.Options, __D0main
+0	22	105	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	105		mov __TextOutArgs.Text, __strbufmain
+0	22	107	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	107		syscall 13, __TextOutArgs
+0	22	110	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	110		mov __D0main, __TextOutArgs.Result
+0	22	113	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	113		release __TextOutMutex
+0	22	114	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	22	114	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	114		set __signed_stack_001main, 3
+0	22	117	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	22	117	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	117		set __D0main, 1
+0	22	120	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	120		acquire __RBtnMutex
+0	22	121	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	121		mov __RBtnArgs.Index, __signed_stack_001main
+0	22	124	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	124		mov __RBtnArgs.Reset, __D0main
+0	22	127	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	127		syscall 20, __RBtnArgs
+0	22	130	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	130		mov __D0main, __RBtnArgs.Pressed
+0	22	133	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	133		release __RBtnMutex
+0	22	134	#line 22 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	23	134		not __D0main, __D0main
+0	27	137	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	137		tst 5, __zfmain, __D0main
+0	27	140	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	140		brtst 4, __NXC_Label_1773, __zfmain
+0	27	143	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	27	143	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	143		jmp __NXC_Label_1772
+0	27	145	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	27	145	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	145		set __MMX_Stop_7qG2_port_7qG2_000, 0
+0	27	148	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	27	148	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	148		set __MMX_Stop_7qG2_addr_7qG2_000, 6
+0	27	151	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	27	151	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	151		set __MMX_Stop_7qG2_motor_number_7qG2_000, 3
+0	27	154	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	27	154	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	154		set __MMX_Stop_7qG2_next_action_7qG2_000, 1
+0	27	157	#line 27 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	157	#line 28 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	29	157		subcall MMX_Stop, __MMX_Stop_return
+0	28	159	#line 28 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	159	#line 28 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	28	159	#line 28 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	29	159		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	28	162	#line 28 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	7921	162	#line 7921 "NXCDefs.h"
+0	7922	162		wait 500
+0	7921	164	#line 7921 "NXCDefs.h"
+0	29	164	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	29	164	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	164		set __signed_stack_001main, 3
+0	29	167	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	29	167	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	167		set __D0main, 1
+0	29	170	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	170		acquire __RBtnMutex
+0	29	171	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	171		mov __RBtnArgs.Index, __signed_stack_001main
+0	29	174	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	174		mov __RBtnArgs.Reset, __D0main
+0	29	177	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	177		syscall 20, __RBtnArgs
+0	29	180	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	180		mov __D0main, __RBtnArgs.Pressed
+0	29	183	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	183		release __RBtnMutex
+0	29	184	#line 29 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	184		not __D0main, __D0main
+0	30	187	#line 30 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	31	187		tst 5, __zfmain, __D0main
+0	30	190	#line 30 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	31	190		brtst 4, __NXC_Label_1793, __zfmain
+0	30	193	#line 30 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	30	193	#line 30 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	31	193		jmp __NXC_Label_1792
+0	30	195	#line 30 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+0	31	195		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5821	0	#pragma macro 25
+2	5821	0		acquire __CLSWMutex0
+2	5821	1		acquire __CLSWMutex1
+2	5821	2		acquire __CLSWMutex2
+2	5821	3		acquire __CLSWMutex3
+2	5821	4		mov __CLSWArgs0.Port, __RLSReadPort
+2	5821	6		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+2	5821	8		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+2	5821	10		syscall 21, __CLSWArgs0
+2	5821	13		mov __RLSBResultVar, __CLSWArgs0.Result
+2	5821	15		release __CLSWMutex0
+2	5821	16		release __CLSWMutex1
+2	5821	17		release __CLSWMutex2
+2	5821	18		release __CLSWMutex3
+2	5821	19	#line 5821 "NXTDefs.h"
+2	5822	19		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+2	5823	22		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+2	5824	26		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5825	29		set __RLSBIterationsVar, 4
+2	5827	32	#pragma macro 23
+2	5827	32		acquire __CLSCSMutex0
+2	5827	33		acquire __CLSCSMutex1
+2	5827	34		acquire __CLSCSMutex2
+2	5827	35		acquire __CLSCSMutex3
+2	5827	36		mov __CLSCSArgs0.Port, __RLSReadPort
+2	5827	38		syscall 23, __CLSCSArgs0
+2	5827	41		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+2	5827	43		mov __RLSBResultVar, __CLSCSArgs0.Result
+2	5827	45		release __CLSCSMutex0
+2	5827	46		release __CLSCSMutex1
+2	5827	47		release __CLSCSMutex2
+2	5827	48		release __CLSCSMutex3
+2	5827	49	#line 5827 "NXTDefs.h"
+2	5828	49		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+2	5829	53		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+2	5830	56		brtst 0, __RLSBErrorVar, __RLSBResultVar
+2	5831	59		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+2	5833	62		wait 15
+2	5834	64		jmp __RLSBDoCheckStatusVar
+2	5837	66	#pragma macro 25
+2	5837	66		acquire __CLSRMutex0
+2	5837	67		acquire __CLSRMutex1
+2	5837	68		acquire __CLSRMutex2
+2	5837	69		acquire __CLSRMutex3
+2	5837	70		mov __CLSRArgs0.Port, __RLSReadPort
+2	5837	72		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+2	5837	74		syscall 22, __CLSRArgs0
+2	5837	77		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+2	5837	79		mov __RLSBResultVar, __CLSRArgs0.Result
+2	5837	81		release __CLSRMutex0
+2	5837	82		release __CLSRMutex1
+2	5837	83		release __CLSRMutex2
+2	5837	84		release __CLSRMutex3
+2	5837	85	#line 5837 "NXTDefs.h"
+2	5838	85		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5839	88		mov __RLSLastGoodReadVar, __RLSReadBufVar
+2	5840	90		jmp __RLSBDoneVar
+2	5842	92		mov __RLSReadBufVar, __RLSLastGoodReadVar
+2	5844	94		arrsize __RLSBytesCountVar, __RLSReadBufVar
+2	5846	97		subret ____ReadLSBytesVar_return
+3	103	0	#line 103 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	104	0		set __MMX_FlushPort_7qG2_nByteReady_7qG2_000, 0
+3	103	3	#line 103 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	105	3	#line 105 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	3		arrinit __MMX_FlushPort_7qG2_buf_7qG2_000, __constVal0, __constVal10
+3	105	7	#line 105 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	7	#pragma macro 23
+3	106	7		acquire __CLSCSMutex0
+3	106	8		acquire __CLSCSMutex1
+3	106	9		acquire __CLSCSMutex2
+3	106	10		acquire __CLSCSMutex3
+3	106	11		mov __CLSCSArgs0.Port, __MMX_FlushPort_7qG2_port_7qG2_000
+3	106	13		syscall 23, __CLSCSArgs0
+3	106	16		mov __MMX_FlushPort_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+3	106	18		mov __D0MMX_FlushPort, __CLSCSArgs0.Result
+3	106	21		release __CLSCSMutex0
+3	106	22		release __CLSCSMutex1
+3	106	23		release __CLSCSMutex2
+3	106	24		release __CLSCSMutex3
+3	8241	25	#line 8241 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	105	25	#line 105 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	25		mov __signed_stack_001MMX_FlushPort, __D0MMX_FlushPort
+3	105	27	#line 105 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	27		set __D0MMX_FlushPort, 32
+3	105	30	#line 105 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	30		cmp 4, __zfMMX_FlushPort, __signed_stack_001MMX_FlushPort, __D0MMX_FlushPort
+3	105	34	#line 105 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	34		mov __D0MMX_FlushPort, __zfMMX_FlushPort
+3	106	37	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	107	37		brtst 4, __NXC_Label_607, __zfMMX_FlushPort
+3	106	40	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	40	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	107	40		jmp __NXC_Label_606
+3	106	42	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	42	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	107	42	#pragma macro 25
+3	107	42		acquire __CLSRMutex0
+3	107	43		acquire __CLSRMutex1
+3	107	44		acquire __CLSRMutex2
+3	107	45		acquire __CLSRMutex3
+3	107	46		mov __CLSRArgs0.Port, __MMX_FlushPort_7qG2_port_7qG2_000
+3	107	48		mov __CLSRArgs0.BufferLen, __constVal1
+3	107	50		syscall 22, __CLSRArgs0
+3	107	53		mov __MMX_FlushPort_7qG2_buf_7qG2_000, __CLSRArgs0.Buffer
+3	107	55		mov __D0MMX_FlushPort, __CLSRArgs0.Result
+3	107	58		release __CLSRMutex0
+3	107	59		release __CLSRMutex1
+3	107	60		release __CLSRMutex2
+3	107	61		release __CLSRMutex3
+3	8260	62	#line 8260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	62	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	107	62		mov __MMX_FlushPort_7qG2_n_7qG2_000, __D0MMX_FlushPort
+3	106	64	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	106	64	#line 106 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	107	64	#line 107 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	108	64		mov __signed_stack_001MMX_FlushPort, __MMX_FlushPort_7qG2_n_7qG2_000
+3	107	66	#line 107 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	107	66	#line 107 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	108	66		set __D0MMX_FlushPort, 0
+3	107	69	#line 107 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	108	69		cmp 1, __zfMMX_FlushPort, __signed_stack_001MMX_FlushPort, __D0MMX_FlushPort
+3	107	73	#line 107 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	108	73		mov __D0MMX_FlushPort, __zfMMX_FlushPort
+3	108	76	#line 108 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	76		brtst 4, __NXC_Label_613, __zfMMX_FlushPort
+3	108	79	#line 108 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	79	#pragma macro 23
+3	109	79		acquire __CLSCSMutex0
+3	109	80		acquire __CLSCSMutex1
+3	109	81		acquire __CLSCSMutex2
+3	109	82		acquire __CLSCSMutex3
+3	109	83		mov __CLSCSArgs0.Port, __MMX_FlushPort_7qG2_port_7qG2_000
+3	109	85		syscall 23, __CLSCSArgs0
+3	109	88		mov __MMX_FlushPort_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+3	109	90		mov __D0MMX_FlushPort, __CLSCSArgs0.Result
+3	109	93		release __CLSCSMutex0
+3	109	94		release __CLSCSMutex1
+3	109	95		release __CLSCSMutex2
+3	109	96		release __CLSCSMutex3
+3	8284	97	#line 8284 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	108	97	#line 108 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	97		mov __signed_stack_001MMX_FlushPort, __D0MMX_FlushPort
+3	108	99	#line 108 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	99		set __D0MMX_FlushPort, 32
+3	108	102	#line 108 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	102		cmp 4, __zfMMX_FlushPort, __signed_stack_001MMX_FlushPort, __D0MMX_FlushPort
+3	108	106	#line 108 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	106		mov __D0MMX_FlushPort, __zfMMX_FlushPort
+3	109	109	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	110	109		brtst 4, __NXC_Label_617, __zfMMX_FlushPort
+3	109	112	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	112	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	110	112		jmp __NXC_Label_616
+3	109	114	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	114	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	110	114	#pragma macro 25
+3	110	114		acquire __CLSRMutex0
+3	110	115		acquire __CLSRMutex1
+3	110	116		acquire __CLSRMutex2
+3	110	117		acquire __CLSRMutex3
+3	110	118		mov __CLSRArgs0.Port, __MMX_FlushPort_7qG2_port_7qG2_000
+3	110	120		mov __CLSRArgs0.BufferLen, __constVal1
+3	110	122		syscall 22, __CLSRArgs0
+3	110	125		mov __MMX_FlushPort_7qG2_buf_7qG2_000, __CLSRArgs0.Buffer
+3	110	127		mov __D0MMX_FlushPort, __CLSRArgs0.Result
+3	110	130		release __CLSRMutex0
+3	110	131		release __CLSRMutex1
+3	110	132		release __CLSRMutex2
+3	110	133		release __CLSRMutex3
+3	8303	134	#line 8303 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	134	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	110	134		mov __MMX_FlushPort_7qG2_n_7qG2_000, __D0MMX_FlushPort
+3	109	136	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	109	136	#line 109 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	113	136	#line 113 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	114	136		jmp __NXC_Label_612
+3	113	138	#line 113 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	113	138	#line 113 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+3	114	138		subret __MMX_FlushPort_return
+4	117	0	#line 117 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	118	0		arrinit __MMX_i2cread_2_bytes_7qG2_buf_7qG2_000, __constVal0, __constVal3
+4	118	4	#line 118 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	119	4		set __MMX_i2cread_2_bytes_7qG2_nByteReady_7qG2_000, 0
+4	118	7	#line 118 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	121	7	#line 121 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	122	7		arrbuild __MMX_i2cread_2_bytes_7qG2_cmdbuf_7qG2_000, __MMX_i2cread_2_bytes_7qG2_addr_7qG2_000, __MMX_i2cread_2_bytes_7qG2_reg_7qG2_000
+4	121	12	#line 121 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	121	12	#line 121 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	122	12	#line 122 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	123	12	#pragma macro 23
+4	123	12		acquire __CLSCSMutex0
+4	123	13		acquire __CLSCSMutex1
+4	123	14		acquire __CLSCSMutex2
+4	123	15		acquire __CLSCSMutex3
+4	123	16		mov __CLSCSArgs0.Port, __MMX_i2cread_2_bytes_7qG2_port_7qG2_000
+4	123	18		syscall 23, __CLSCSArgs0
+4	123	21		mov __MMX_i2cread_2_bytes_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+4	123	23		mov __D0MMX_i2cread_2_bytes, __CLSCSArgs0.Result
+4	123	26		release __CLSCSMutex0
+4	123	27		release __CLSCSMutex1
+4	123	28		release __CLSCSMutex2
+4	123	29		release __CLSCSMutex3
+4	8373	30	#line 8373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	122	30	#line 122 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	123	30		mov __signed_stack_001MMX_i2cread_2_bytes, __D0MMX_i2cread_2_bytes
+4	122	32	#line 122 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	123	32		set __D0MMX_i2cread_2_bytes, 32
+4	122	35	#line 122 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	123	35		cmp 4, __zfMMX_i2cread_2_bytes, __signed_stack_001MMX_i2cread_2_bytes, __D0MMX_i2cread_2_bytes
+4	122	39	#line 122 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	123	39		mov __D0MMX_i2cread_2_bytes, __zfMMX_i2cread_2_bytes
+4	123	42	#line 123 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	124	42		brtst 4, __NXC_Label_625, __zfMMX_i2cread_2_bytes
+4	123	45	#line 123 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	123	45	#line 123 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	124	45		jmp __NXC_Label_624
+4	123	47	#line 123 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	124	47	#line 124 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	125	47		set __MMX_i2cread_2_bytes_7qG2_count_7qG2_000, 2
+4	124	50	#line 124 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	124	50	#line 124 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	124	50	#line 124 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	125	50	#pragma macro 28
+4	125	50		acquire __RLSBmutex0
+4	125	51		acquire __RLSBmutex1
+4	125	52		acquire __RLSBmutex2
+4	125	53		acquire __RLSBmutex3
+4	125	54		mov __RLSReadPort, __MMX_i2cread_2_bytes_7qG2_port_7qG2_000
+4	125	56		mov __RLSReadBufVar, __MMX_i2cread_2_bytes_7qG2_cmdbuf_7qG2_000
+4	125	58		mov __RLSBytesCountVar, __MMX_i2cread_2_bytes_7qG2_count_7qG2_000
+4	125	60		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+4	125	63		tst 4, __D0MMX_i2cread_2_bytes, __RLSBResultVar
+4	125	66		mov __MMX_i2cread_2_bytes_7qG2_count_7qG2_000, __RLSBytesCountVar
+4	125	68		mov __MMX_i2cread_2_bytes_7qG2_buf_7qG2_000, __RLSReadBufVar
+4	125	70		release __RLSBmutex0
+4	125	71		release __RLSBmutex1
+4	125	72		release __RLSBmutex2
+4	125	73		release __RLSBmutex3
+4	8399	74	#line 8399 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	125	74	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	74		tst 5, __zfMMX_i2cread_2_bytes, __D0MMX_i2cread_2_bytes
+4	125	77	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	77		brtst 4, __NXC_Label_632, __zfMMX_i2cread_2_bytes
+4	125	80	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	80		set __signed_stack_001MMX_i2cread_2_bytes, 0
+4	125	83	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	125	83	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	83		set __signed_stack_002MMX_i2cread_2_bytes, 0
+4	125	86	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	125	86	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	86		index __ArrHelper__MMX_i2cread_2_bytes_98_0, __MMX_i2cread_2_bytes_7qG2_buf_7qG2_000, __signed_stack_002MMX_i2cread_2_bytes
+4	125	90	#line 125 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	90		mov __DU0MMX_i2cread_2_bytes, __ArrHelper__MMX_i2cread_2_bytes_98_0
+4	126	93	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	127	93		replace __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000, __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000, __signed_stack_001MMX_i2cread_2_bytes, __DU0MMX_i2cread_2_bytes
+4	126	98	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	98	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	127	98		set __signed_stack_001MMX_i2cread_2_bytes, 1
+4	126	101	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	101	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	127	101		set __signed_stack_002MMX_i2cread_2_bytes, 1
+4	126	104	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	126	104	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	127	104		index __ArrHelper__MMX_i2cread_2_bytes_98_0, __MMX_i2cread_2_bytes_7qG2_buf_7qG2_000, __signed_stack_002MMX_i2cread_2_bytes
+4	126	108	#line 126 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	127	108		mov __DU0MMX_i2cread_2_bytes, __ArrHelper__MMX_i2cread_2_bytes_98_0
+4	127	111	#line 127 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	128	111		replace __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000, __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000, __signed_stack_001MMX_i2cread_2_bytes, __DU0MMX_i2cread_2_bytes
+4	127	116	#line 127 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	128	116	#line 128 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	129	116		set __DU0MMX_i2cread_2_bytes, 1
+4	128	119	#line 128 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	128	119	#line 128 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	129	119		subret __MMX_i2cread_2_bytes_return
+4	128	121	#line 128 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	129	121	#line 129 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	130	121		jmp __NXC_Label_647
+4	130	123	#line 130 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	131	123		set __DU0MMX_i2cread_2_bytes, 0
+4	130	126	#line 130 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	130	126	#line 130 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	131	126		subret __MMX_i2cread_2_bytes_return
+4	130	128	#line 130 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	134	128	#line 134 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	134	128	#line 134 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+4	135	128		subret __MMX_i2cread_2_bytes_return
+5	138	0	#line 138 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	139	0		arrinit __MMX_i2cread_1_byte_7qG2_buf_7qG2_000, __constVal0, __constVal3
+5	139	4	#line 139 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	140	4		set __MMX_i2cread_1_byte_7qG2_nByteReady_7qG2_000, 0
+5	139	7	#line 139 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	142	7	#line 142 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	143	7		arrbuild __MMX_i2cread_1_byte_7qG2_cmdbuf_7qG2_000, __MMX_i2cread_1_byte_7qG2_addr_7qG2_000, __MMX_i2cread_1_byte_7qG2_reg_7qG2_000
+5	142	12	#line 142 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	142	12	#line 142 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	145	12	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	12		set __MMX_i2cread_1_byte_7qG2_loop_7qG2_000, 32
+5	145	15	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	145	15	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	145	15	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	15		mov __unsigned_stack_001MMX_i2cread_1_byte, __MMX_i2cread_1_byte_7qG2_loop_7qG2_000
+5	145	18	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	145	18	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	18		set __D0MMX_i2cread_1_byte, 32
+5	145	21	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	21		cmp 4, __zfMMX_i2cread_1_byte, __unsigned_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	145	25	#line 145 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	25		mov __D0MMX_i2cread_1_byte, __zfMMX_i2cread_1_byte
+5	146	28	#line 146 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	147	28		brtst 4, __NXC_Label_655, __zfMMX_i2cread_1_byte
+5	146	31	#line 146 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	147	31	#pragma macro 23
+5	147	31		acquire __CLSCSMutex0
+5	147	32		acquire __CLSCSMutex1
+5	147	33		acquire __CLSCSMutex2
+5	147	34		acquire __CLSCSMutex3
+5	147	35		mov __CLSCSArgs0.Port, __MMX_i2cread_1_byte_7qG2_port_7qG2_000
+5	147	37		syscall 23, __CLSCSArgs0
+5	147	40		mov __MMX_i2cread_1_byte_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+5	147	42		mov __D0MMX_i2cread_1_byte, __CLSCSArgs0.Result
+5	147	45		release __CLSCSMutex0
+5	147	46		release __CLSCSMutex1
+5	147	47		release __CLSCSMutex2
+5	147	48		release __CLSCSMutex3
+5	8543	49	#line 8543 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	49	#line 146 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	147	49		mov __MMX_i2cread_1_byte_7qG2_loop_7qG2_000, __D0MMX_i2cread_1_byte
+5	146	52	#line 146 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	146	52	#line 146 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	148	52	#line 148 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	149	52		jmp __NXC_Label_654
+5	148	54	#line 148 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	148	54	#line 148 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	149	54	#pragma macro 25
+5	149	54		acquire __CLSWMutex0
+5	149	55		acquire __CLSWMutex1
+5	149	56		acquire __CLSWMutex2
+5	149	57		acquire __CLSWMutex3
+5	149	58		mov __CLSWArgs0.Port, __MMX_i2cread_1_byte_7qG2_port_7qG2_000
+5	149	60		mov __CLSWArgs0.ReturnLen, __constVal1
+5	149	62		mov __CLSWArgs0.Buffer, __MMX_i2cread_1_byte_7qG2_cmdbuf_7qG2_000
+5	149	64		syscall 21, __CLSWArgs0
+5	149	67		mov __D0MMX_i2cread_1_byte, __CLSWArgs0.Result
+5	149	70		release __CLSWMutex0
+5	149	71		release __CLSWMutex1
+5	149	72		release __CLSWMutex2
+5	149	73		release __CLSWMutex3
+5	8555	74	#line 8555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	148	74	#line 148 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	149	74		mov __MMX_i2cread_1_byte_7qG2_n_7qG2_000, __D0MMX_i2cread_1_byte
+5	148	77	#line 148 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	148	77	#line 148 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	151	77	#line 151 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	77	#pragma macro 23
+5	152	77		acquire __CLSCSMutex0
+5	152	78		acquire __CLSCSMutex1
+5	152	79		acquire __CLSCSMutex2
+5	152	80		acquire __CLSCSMutex3
+5	152	81		mov __CLSCSArgs0.Port, __MMX_i2cread_1_byte_7qG2_port_7qG2_000
+5	152	83		syscall 23, __CLSCSArgs0
+5	152	86		mov __MMX_i2cread_1_byte_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+5	152	88		mov __D0MMX_i2cread_1_byte, __CLSCSArgs0.Result
+5	152	91		release __CLSCSMutex0
+5	152	92		release __CLSCSMutex1
+5	152	93		release __CLSCSMutex2
+5	152	94		release __CLSCSMutex3
+5	8564	95	#line 8564 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	151	95	#line 151 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	95		mov __signed_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	151	97	#line 151 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	97		set __D0MMX_i2cread_1_byte, 32
+5	151	100	#line 151 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	100		cmp 4, __zfMMX_i2cread_1_byte, __signed_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	151	104	#line 151 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	104		mov __D0MMX_i2cread_1_byte, __zfMMX_i2cread_1_byte
+5	152	107	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	153	107		brtst 4, __NXC_Label_663, __zfMMX_i2cread_1_byte
+5	152	110	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	110	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	153	110		jmp __NXC_Label_662
+5	152	112	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	112	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	153	112	#pragma macro 25
+5	153	112		acquire __CLSRMutex0
+5	153	113		acquire __CLSRMutex1
+5	153	114		acquire __CLSRMutex2
+5	153	115		acquire __CLSRMutex3
+5	153	116		mov __CLSRArgs0.Port, __MMX_i2cread_1_byte_7qG2_port_7qG2_000
+5	153	118		mov __CLSRArgs0.BufferLen, __constVal1
+5	153	120		syscall 22, __CLSRArgs0
+5	153	123		mov __MMX_i2cread_1_byte_7qG2_buf_7qG2_000, __CLSRArgs0.Buffer
+5	153	125		mov __D0MMX_i2cread_1_byte, __CLSRArgs0.Result
+5	153	128		release __CLSRMutex0
+5	153	129		release __CLSRMutex1
+5	153	130		release __CLSRMutex2
+5	153	131		release __CLSRMutex3
+5	8583	132	#line 8583 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	132	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	153	132		mov __MMX_i2cread_1_byte_7qG2_n_7qG2_000, __D0MMX_i2cread_1_byte
+5	152	135	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	152	135	#line 152 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	154	135	#line 154 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	155	135		mov __unsigned_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	154	137	#line 154 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	154	137	#line 154 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	155	137		set __D0MMX_i2cread_1_byte, 0
+5	154	140	#line 154 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	155	140		cmp 4, __zfMMX_i2cread_1_byte, __unsigned_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	154	144	#line 154 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	155	144		mov __D0MMX_i2cread_1_byte, __zfMMX_i2cread_1_byte
+5	155	147	#line 155 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	147		brtst 4, __NXC_Label_670, __zfMMX_i2cread_1_byte
+5	155	150	#line 155 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	150	#pragma macro 23
+5	156	150		acquire __CLSCSMutex0
+5	156	151		acquire __CLSCSMutex1
+5	156	152		acquire __CLSCSMutex2
+5	156	153		acquire __CLSCSMutex3
+5	156	154		mov __CLSCSArgs0.Port, __MMX_i2cread_1_byte_7qG2_port_7qG2_000
+5	156	156		syscall 23, __CLSCSArgs0
+5	156	159		mov __MMX_i2cread_1_byte_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+5	156	161		mov __D0MMX_i2cread_1_byte, __CLSCSArgs0.Result
+5	156	164		release __CLSCSMutex0
+5	156	165		release __CLSCSMutex1
+5	156	166		release __CLSCSMutex2
+5	156	167		release __CLSCSMutex3
+5	8606	168	#line 8606 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	155	168	#line 155 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	168		mov __signed_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	155	170	#line 155 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	170		set __D0MMX_i2cread_1_byte, 32
+5	155	173	#line 155 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	173		cmp 4, __zfMMX_i2cread_1_byte, __signed_stack_001MMX_i2cread_1_byte, __D0MMX_i2cread_1_byte
+5	155	177	#line 155 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	177		mov __D0MMX_i2cread_1_byte, __zfMMX_i2cread_1_byte
+5	156	180	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	157	180		brtst 4, __NXC_Label_672, __zfMMX_i2cread_1_byte
+5	156	183	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	183	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	157	183		jmp __NXC_Label_671
+5	156	185	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	185	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	157	185		set __signed_stack_001MMX_i2cread_1_byte, 0
+5	156	188	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	156	188	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	157	188		index __ArrHelper__MMX_i2cread_1_byte_98_0, __MMX_i2cread_1_byte_7qG2_buf_7qG2_000, __signed_stack_001MMX_i2cread_1_byte
+5	156	192	#line 156 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	157	192		mov __DU0MMX_i2cread_1_byte, __ArrHelper__MMX_i2cread_1_byte_98_0
+5	157	195	#line 157 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	158	195		subret __MMX_i2cread_1_byte_return
+5	157	197	#line 157 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	158	197	#line 158 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	159	197		jmp __NXC_Label_681
+5	159	199	#line 159 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	160	199		set __DU0MMX_i2cread_1_byte, 0
+5	159	202	#line 159 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	159	202	#line 159 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	160	202		subret __MMX_i2cread_1_byte_return
+5	159	204	#line 159 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	165	204	#line 165 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	165	204	#line 165 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+5	166	204		subret __MMX_i2cread_1_byte_return
+6	237	0	#line 237 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	238	0		arrinit __MMX_IsTachoDone_7qG2_res_7qG2_000, __constVal0, __constVal3
+6	239	4	#line 239 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	240	4		mov __unsigned_stack_001MMX_IsTachoDone, __MMX_IsTachoDone_7qG2_motor_number_7qG2_000
+6	239	7	#line 239 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	239	7	#line 239 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	240	7		set __D0MMX_IsTachoDone, 1
+6	239	10	#line 239 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	240	10		cmp 4, __zfMMX_IsTachoDone, __unsigned_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	239	14	#line 239 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	240	14		mov __D0MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	240	16	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	241	16		brtst 4, __NXC_Label_836, __zfMMX_IsTachoDone
+6	240	19	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	241	19		mov __MMX_i2cread_1_byte_7qG2_port_7qG2_000, __MMX_IsTachoDone_7qG2_port_7qG2_000
+6	240	21	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	240	21	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	241	21		mov __MMX_i2cread_1_byte_7qG2_addr_7qG2_000, __MMX_IsTachoDone_7qG2_addr_7qG2_000
+6	240	23	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	240	23	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	241	23		set __MMX_i2cread_1_byte_7qG2_reg_7qG2_000, 114
+6	240	26	#line 240 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	26	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	26		subcall MMX_i2cread_1_byte, __MMX_i2cread_1_byte_return
+6	242	29	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	29		mov __MMX_IsTachoDone_7qG2_result_7qG2_000, __DU0MMX_i2cread_1_byte
+6	242	32	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	32	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	32	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	32	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	32	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	32	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	32		and __signed_stack_001MMX_IsTachoDone, __DU0MMX_i2cread_1_byte, __constVal8
+6	242	36	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	242	36	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	36		set __D0MMX_IsTachoDone, 0
+6	242	39	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	39		cmp 4, __zfMMX_IsTachoDone, __signed_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	242	43	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	43		mov __D0MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	242	45	#line 242 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	45		brtst 4, __NXC_Label_849, __zfMMX_IsTachoDone
+6	243	48	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	48		set __DU0MMX_IsTachoDone, 1
+6	243	51	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	51	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	51		subret __MMX_IsTachoDone_return
+6	243	53	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	53	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	53	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	53		jmp __NXC_Label_852
+6	243	55	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	55		mov __unsigned_stack_001MMX_IsTachoDone, __MMX_IsTachoDone_7qG2_motor_number_7qG2_000
+6	243	58	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	243	58	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	58		set __D0MMX_IsTachoDone, 2
+6	243	61	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	61		cmp 4, __zfMMX_IsTachoDone, __unsigned_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	243	65	#line 243 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	65		mov __D0MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	244	67	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	67		brtst 4, __NXC_Label_855, __zfMMX_IsTachoDone
+6	244	70	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	70		mov __MMX_i2cread_2_bytes_7qG2_port_7qG2_000, __MMX_IsTachoDone_7qG2_port_7qG2_000
+6	244	72	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	72	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	72		mov __MMX_i2cread_2_bytes_7qG2_addr_7qG2_000, __MMX_IsTachoDone_7qG2_addr_7qG2_000
+6	244	74	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	74	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	74		set __MMX_i2cread_2_bytes_7qG2_reg_7qG2_000, 114
+6	244	77	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	244	77	#line 244 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	77		mov __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000, __MMX_IsTachoDone_7qG2_res_7qG2_000
+6	245	79	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	246	79		subcall MMX_i2cread_2_bytes, __MMX_i2cread_2_bytes_return
+6	245	82	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	246	82		mov __MMX_IsTachoDone_7qG2_res_7qG2_000, __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000
+6	245	84	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	246	84		mov __DU0MMX_IsTachoDone, __DU0MMX_i2cread_2_bytes
+6	245	86	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	86	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	246	86		set __signed_stack_001MMX_IsTachoDone, 1
+6	245	89	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	245	89	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	246	89		index __ArrHelper__MMX_IsTachoDone_98_0, __MMX_IsTachoDone_7qG2_res_7qG2_000, __signed_stack_001MMX_IsTachoDone
+6	245	93	#line 245 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	246	93		mov __MMX_IsTachoDone_7qG2_result_7qG2_000, __ArrHelper__MMX_IsTachoDone_98_0
+6	247	95	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	247	95	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	247	95	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	247	95	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	247	95	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	247	95	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	95		and __signed_stack_001MMX_IsTachoDone, __ArrHelper__MMX_IsTachoDone_98_0, __constVal8
+6	247	99	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	247	99	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	99		set __D0MMX_IsTachoDone, 0
+6	247	102	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	102		cmp 4, __zfMMX_IsTachoDone, __signed_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	247	106	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	106		mov __D0MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	247	108	#line 247 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	108		brtst 4, __NXC_Label_870, __zfMMX_IsTachoDone
+6	248	111	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	111		set __DU0MMX_IsTachoDone, 1
+6	248	114	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	114	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	114		subret __MMX_IsTachoDone_return
+6	248	116	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	116	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	116	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	116		jmp __NXC_Label_873
+6	248	118	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	118		mov __unsigned_stack_001MMX_IsTachoDone, __MMX_IsTachoDone_7qG2_motor_number_7qG2_000
+6	248	121	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	248	121	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	121		set __D0MMX_IsTachoDone, 3
+6	248	124	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	124		cmp 4, __zfMMX_IsTachoDone, __unsigned_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	248	128	#line 248 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	128		mov __D0MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	249	130	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	250	130		brtst 4, __NXC_Label_876, __zfMMX_IsTachoDone
+6	249	133	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	250	133		mov __MMX_i2cread_2_bytes_7qG2_port_7qG2_000, __MMX_IsTachoDone_7qG2_port_7qG2_000
+6	249	135	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	135	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	250	135		mov __MMX_i2cread_2_bytes_7qG2_addr_7qG2_000, __MMX_IsTachoDone_7qG2_addr_7qG2_000
+6	249	137	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	137	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	250	137		set __MMX_i2cread_2_bytes_7qG2_reg_7qG2_000, 114
+6	249	140	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	249	140	#line 249 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	250	140		mov __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000, __MMX_IsTachoDone_7qG2_res_7qG2_000
+6	251	142	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	142		subcall MMX_i2cread_2_bytes, __MMX_i2cread_2_bytes_return
+6	251	145	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	145		mov __MMX_IsTachoDone_7qG2_res_7qG2_000, __MMX_i2cread_2_bytes_7qG2_retVal_7qG2_000
+6	251	147	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	147		mov __DU0MMX_IsTachoDone, __DU0MMX_i2cread_2_bytes
+6	251	149	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	251	149	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	149		set __signed_stack_001MMX_IsTachoDone, 0
+6	251	152	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	251	152	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	152		index __ArrHelper__MMX_IsTachoDone_98_0, __MMX_IsTachoDone_7qG2_res_7qG2_000, __signed_stack_001MMX_IsTachoDone
+6	251	156	#line 251 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	156		mov __MMX_IsTachoDone_7qG2_result_7qG2_000, __ArrHelper__MMX_IsTachoDone_98_0
+6	252	158	#line 252 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	158	#line 252 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	158	#line 252 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	158		set __signed_stack_001MMX_IsTachoDone, 1
+6	252	161	#line 252 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	252	161	#line 252 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	161		index __ArrHelper__MMX_IsTachoDone_98_0, __MMX_IsTachoDone_7qG2_res_7qG2_000, __signed_stack_001MMX_IsTachoDone
+6	252	165	#line 252 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	165		mov __MMX_IsTachoDone_7qG2_result2_7qG2_000, __ArrHelper__MMX_IsTachoDone_98_0
+6	253	167	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	167	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	167	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	167	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	167	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	167	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	167		and __signed_stack_001MMX_IsTachoDone, __MMX_IsTachoDone_7qG2_result_7qG2_000, __constVal8
+6	253	171	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	171	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	171		set __D0MMX_IsTachoDone, 0
+6	253	174	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	174		cmp 4, __zfMMX_IsTachoDone, __signed_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	253	178	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	178		mov __D0MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	253	180	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	180		brtst 4, __NXC_Label_892, __zfMMX_IsTachoDone
+6	253	183	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	183		mov __signed_stack_001MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	253	185	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	185	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	185	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	185	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	185		and __signed_stack_002MMX_IsTachoDone, __MMX_IsTachoDone_7qG2_result2_7qG2_000, __constVal8
+6	253	189	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	189	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	189		set __D0MMX_IsTachoDone, 0
+6	253	192	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	192		cmp 4, __zfMMX_IsTachoDone, __signed_stack_002MMX_IsTachoDone, __D0MMX_IsTachoDone
+6	253	196	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	253	196	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	196		and __D0MMX_IsTachoDone, __signed_stack_001MMX_IsTachoDone, __zfMMX_IsTachoDone
+6	253	200	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	200		tst 5, __zfMMX_IsTachoDone, __D0MMX_IsTachoDone
+6	253	203	#line 253 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	203		brtst 4, __NXC_Label_901, __zfMMX_IsTachoDone
+6	254	206	#line 254 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	255	206		set __DU0MMX_IsTachoDone, 1
+6	254	209	#line 254 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	254	209	#line 254 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	255	209		subret __MMX_IsTachoDone_return
+6	254	211	#line 254 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	255	211	#line 255 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	255	211	#line 255 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	255	211	#line 255 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	255	211	#line 255 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	256	211	#line 256 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	257	211		set __DU0MMX_IsTachoDone, 0
+6	256	214	#line 256 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	256	214	#line 256 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	257	214		subret __MMX_IsTachoDone_return
+6	256	216	#line 256 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	258	216	#line 258 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+6	259	216		subret __MMX_IsTachoDone_return
+7	260	0	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	0		mov __MMX_IsTachoDone_7qG2_port_7qG2_000, __MMX_WaitUntilTachoDone_7qG2_port_7qG2_000
+7	260	2	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	260	2	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	2		mov __MMX_IsTachoDone_7qG2_addr_7qG2_000, __MMX_WaitUntilTachoDone_7qG2_addr_7qG2_000
+7	260	4	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	260	4	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	4		mov __MMX_IsTachoDone_7qG2_motor_number_7qG2_000, __MMX_WaitUntilTachoDone_7qG2_motor_number_7qG2_000
+7	260	6	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	260	6	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	6		subcall MMX_IsTachoDone, __MMX_IsTachoDone_return
+7	260	9	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	9		mov __unsigned_stack_001MMX_WaitUntilTachoDone, __DU0MMX_IsTachoDone
+7	260	11	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	260	11	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	11		set __D0MMX_WaitUntilTachoDone, 1
+7	260	14	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	14		cmp 5, __zfMMX_WaitUntilTachoDone, __unsigned_stack_001MMX_WaitUntilTachoDone, __D0MMX_WaitUntilTachoDone
+7	260	18	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	18		mov __D0MMX_WaitUntilTachoDone, __zfMMX_WaitUntilTachoDone
+7	260	21	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	21		brtst 4, __NXC_Label_907, __zfMMX_WaitUntilTachoDone
+7	260	24	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	260	24	#line 260 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	7921	24	#line 7921 "NXCDefs.h"
+7	7922	24		wait 50
+7	7921	26	#line 7921 "NXCDefs.h"
+7	261	26	#line 261 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	261	26	#line 261 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	262	26		jmp __NXC_Label_906
+7	261	28	#line 261 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	263	28	#line 263 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+7	264	28		subret __MMX_WaitUntilTachoDone_return
+8	268	0	#line 268 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	269	0		set __MMX_SendCommand_7qG2_nByteReady_7qG2_000, 0
+8	268	3	#line 268 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	268	3	#line 268 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	269	3		arrbuild __MMX_SendCommand_7qG2_cmdBuf_7qG2_000, __MMX_SendCommand_7qG2_addr_7qG2_000, __constVal65, __MMX_SendCommand_7qG2_cmd_7qG2_000
+8	268	9	#line 268 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	268	9	#line 268 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	269	9	#line 269 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	270	9	#pragma macro 25
+8	270	9		acquire __CLSWMutex0
+8	270	10		acquire __CLSWMutex1
+8	270	11		acquire __CLSWMutex2
+8	270	12		acquire __CLSWMutex3
+8	270	13		mov __CLSWArgs0.Port, __MMX_SendCommand_7qG2_port_7qG2_000
+8	270	16		mov __CLSWArgs0.ReturnLen, __constVal0
+8	270	18		mov __CLSWArgs0.Buffer, __MMX_SendCommand_7qG2_cmdBuf_7qG2_000
+8	270	20		syscall 21, __CLSWArgs0
+8	270	23		mov __D0MMX_SendCommand, __CLSWArgs0.Result
+8	270	26		release __CLSWMutex0
+8	270	27		release __CLSWMutex1
+8	270	28		release __CLSWMutex2
+8	270	29		release __CLSWMutex3
+8	9906	30	#line 9906 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	269	30	#line 269 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	269	30	#line 269 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	270	30	#line 270 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	30	#pragma macro 23
+8	271	30		acquire __CLSCSMutex0
+8	271	31		acquire __CLSCSMutex1
+8	271	32		acquire __CLSCSMutex2
+8	271	33		acquire __CLSCSMutex3
+8	271	34		mov __CLSCSArgs0.Port, __MMX_SendCommand_7qG2_port_7qG2_000
+8	271	37		syscall 23, __CLSCSArgs0
+8	271	40		mov __MMX_SendCommand_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+8	271	43		mov __D0MMX_SendCommand, __CLSCSArgs0.Result
+8	271	46		release __CLSCSMutex0
+8	271	47		release __CLSCSMutex1
+8	271	48		release __CLSCSMutex2
+8	271	49		release __CLSCSMutex3
+8	9911	50	#line 9911 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	270	50	#line 270 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	50		mov __signed_stack_001MMX_SendCommand, __D0MMX_SendCommand
+8	270	52	#line 270 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	52		set __D0MMX_SendCommand, 32
+8	270	55	#line 270 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	55		cmp 4, __zfMMX_SendCommand, __signed_stack_001MMX_SendCommand, __D0MMX_SendCommand
+8	270	59	#line 270 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	59		mov __D0MMX_SendCommand, __zfMMX_SendCommand
+8	271	61	#line 271 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	272	61		brtst 4, __NXC_Label_921, __zfMMX_SendCommand
+8	271	64	#line 271 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	64	#line 271 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	272	64		jmp __NXC_Label_920
+8	271	66	#line 271 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	66	#line 271 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	272	66	#pragma macro 23
+8	272	66		acquire __CLSCSMutex0
+8	272	67		acquire __CLSCSMutex1
+8	272	68		acquire __CLSCSMutex2
+8	272	69		acquire __CLSCSMutex3
+8	272	70		mov __CLSCSArgs0.Port, __MMX_SendCommand_7qG2_port_7qG2_000
+8	272	73		syscall 23, __CLSCSArgs0
+8	272	76		mov __tmpsbyteMMX_SendCommand, __CLSCSArgs0.BytesReady
+8	272	78		mov __D0MMX_SendCommand, __CLSCSArgs0.Result
+8	272	81		release __CLSCSMutex0
+8	272	82		release __CLSCSMutex1
+8	272	83		release __CLSCSMutex2
+8	272	84		release __CLSCSMutex3
+8	9934	85	#line 9934 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	271	85	#line 271 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	272	85		mov __MMX_SendCommand_7qG2_status_7qG2_000, __D0MMX_SendCommand
+8	272	87	#line 272 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	273	87		mov __signed_stack_001MMX_SendCommand, __MMX_SendCommand_7qG2_status_7qG2_000
+8	272	89	#line 272 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	273	89	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	89		set __D0MMX_SendCommand, 0
+8	273	92	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	92		cmp 1, __zfMMX_SendCommand, __signed_stack_001MMX_SendCommand, __D0MMX_SendCommand
+8	273	96	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	96		mov __D0MMX_SendCommand, __zfMMX_SendCommand
+8	273	98	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	98		brtst 4, __NXC_Label_927, __zfMMX_SendCommand
+8	273	101	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	101	#pragma macro 23
+8	274	101		acquire __CLSCSMutex0
+8	274	102		acquire __CLSCSMutex1
+8	274	103		acquire __CLSCSMutex2
+8	274	104		acquire __CLSCSMutex3
+8	274	105		mov __CLSCSArgs0.Port, __MMX_SendCommand_7qG2_port_7qG2_000
+8	274	108		syscall 23, __CLSCSArgs0
+8	274	111		mov __tmpsbyteMMX_SendCommand, __CLSCSArgs0.BytesReady
+8	274	113		mov __D0MMX_SendCommand, __CLSCSArgs0.Result
+8	274	116		release __CLSCSMutex0
+8	274	117		release __CLSCSMutex1
+8	274	118		release __CLSCSMutex2
+8	274	119		release __CLSCSMutex3
+8	9955	120	#line 9955 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	273	120	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	120		mov __MMX_SendCommand_7qG2_status_7qG2_000, __D0MMX_SendCommand
+8	273	122	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	273	122	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	274	122		jmp __NXC_Label_926
+8	273	124	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	273	124	#line 273 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	275	124	#line 275 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	276	124		mov __D0MMX_SendCommand, __MMX_SendCommand_7qG2_status_7qG2_000
+8	275	126	#line 275 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	276	126		subret __MMX_SendCommand_return
+8	275	128	#line 275 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	277	128	#line 277 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+8	278	128		subret __MMX_SendCommand_return
+9	285	0	#line 285 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	286	0		set __MMX_WriteData9_7qG2_nByteReady_7qG2_000, 0
+9	285	3	#line 285 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	288	3	#line 288 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	289	3		arrbuild __MMX_WriteData9_7qG2_cmdbuf_7qG2_000, __MMX_WriteData9_7qG2_addr_7qG2_000, __MMX_WriteData9_7qG2_data1_7qG2_000, __MMX_WriteData9_7qG2_data2_7qG2_000, __MMX_WriteData9_7qG2_data3_7qG2_000, __MMX_WriteData9_7qG2_data4_7qG2_000, __MMX_WriteData9_7qG2_data5_7qG2_000, __MMX_WriteData9_7qG2_data6_7qG2_000, __MMX_WriteData9_7qG2_data7_7qG2_000, __MMX_WriteData9_7qG2_data8_7qG2_000, __MMX_WriteData9_7qG2_data9_7qG2_000
+9	288	16	#line 288 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	288	16	#line 288 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	291	16	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	16		set __MMX_WriteData9_7qG2_loop_7qG2_000, 32
+9	291	19	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	291	19	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	291	19	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	19		mov __unsigned_stack_001MMX_WriteData9, __MMX_WriteData9_7qG2_loop_7qG2_000
+9	291	21	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	291	21	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	21		set __D0MMX_WriteData9, 32
+9	291	24	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	24		cmp 4, __zfMMX_WriteData9, __unsigned_stack_001MMX_WriteData9, __D0MMX_WriteData9
+9	291	28	#line 291 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	28		mov __D0MMX_WriteData9, __zfMMX_WriteData9
+9	292	31	#line 292 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	293	31		brtst 4, __NXC_Label_939, __zfMMX_WriteData9
+9	292	34	#line 292 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	293	34	#pragma macro 23
+9	293	34		acquire __CLSCSMutex0
+9	293	35		acquire __CLSCSMutex1
+9	293	36		acquire __CLSCSMutex2
+9	293	37		acquire __CLSCSMutex3
+9	293	38		mov __CLSCSArgs0.Port, __MMX_WriteData9_7qG2_port_7qG2_000
+9	293	41		syscall 23, __CLSCSArgs0
+9	293	44		mov __MMX_WriteData9_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+9	293	47		mov __D0MMX_WriteData9, __CLSCSArgs0.Result
+9	293	50		release __CLSCSMutex0
+9	293	51		release __CLSCSMutex1
+9	293	52		release __CLSCSMutex2
+9	293	53		release __CLSCSMutex3
+9	10075	54	#line 10075 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	54	#line 292 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	293	54		mov __MMX_WriteData9_7qG2_loop_7qG2_000, __D0MMX_WriteData9
+9	292	56	#line 292 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	292	56	#line 292 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	294	56	#line 294 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	295	56		jmp __NXC_Label_938
+9	294	58	#line 294 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	294	58	#line 294 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	295	58	#pragma macro 25
+9	295	58		acquire __CLSWMutex0
+9	295	59		acquire __CLSWMutex1
+9	295	60		acquire __CLSWMutex2
+9	295	61		acquire __CLSWMutex3
+9	295	62		mov __CLSWArgs0.Port, __MMX_WriteData9_7qG2_port_7qG2_000
+9	295	65		mov __CLSWArgs0.ReturnLen, __constVal0
+9	295	67		mov __CLSWArgs0.Buffer, __MMX_WriteData9_7qG2_cmdbuf_7qG2_000
+9	295	69		syscall 21, __CLSWArgs0
+9	295	72		mov __D0MMX_WriteData9, __CLSWArgs0.Result
+9	295	75		release __CLSWMutex0
+9	295	76		release __CLSWMutex1
+9	295	77		release __CLSWMutex2
+9	295	78		release __CLSWMutex3
+9	10087	79	#line 10087 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	294	79	#line 294 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	294	79	#line 294 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	294	79	#line 294 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	296	79	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	79		set __MMX_WriteData9_7qG2_loop_7qG2_000, 32
+9	296	82	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	296	82	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	296	82	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	82		mov __unsigned_stack_001MMX_WriteData9, __MMX_WriteData9_7qG2_loop_7qG2_000
+9	296	84	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	296	84	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	84		set __D0MMX_WriteData9, 32
+9	296	87	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	87		cmp 4, __zfMMX_WriteData9, __unsigned_stack_001MMX_WriteData9, __D0MMX_WriteData9
+9	296	91	#line 296 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	91		mov __D0MMX_WriteData9, __zfMMX_WriteData9
+9	297	94	#line 297 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	298	94		brtst 4, __NXC_Label_949, __zfMMX_WriteData9
+9	297	97	#line 297 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	298	97	#pragma macro 23
+9	298	97		acquire __CLSCSMutex0
+9	298	98		acquire __CLSCSMutex1
+9	298	99		acquire __CLSCSMutex2
+9	298	100		acquire __CLSCSMutex3
+9	298	101		mov __CLSCSArgs0.Port, __MMX_WriteData9_7qG2_port_7qG2_000
+9	298	104		syscall 23, __CLSCSArgs0
+9	298	107		mov __MMX_WriteData9_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+9	298	110		mov __D0MMX_WriteData9, __CLSCSArgs0.Result
+9	298	113		release __CLSCSMutex0
+9	298	114		release __CLSCSMutex1
+9	298	115		release __CLSCSMutex2
+9	298	116		release __CLSCSMutex3
+9	10117	117	#line 10117 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	117	#line 297 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	298	117		mov __MMX_WriteData9_7qG2_loop_7qG2_000, __D0MMX_WriteData9
+9	297	119	#line 297 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	297	119	#line 297 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	301	119	#line 301 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	302	119		jmp __NXC_Label_948
+9	301	121	#line 301 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	301	121	#line 301 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+9	302	121		subret __MMX_WriteData9_return
+10	346	0	#line 346 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	347	0		set __MMX_WriteByte_7qG2_nByteReady_7qG2_000, 0
+10	346	3	#line 346 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	348	3	#line 348 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	349	3		arrbuild __MMX_WriteByte_7qG2_cmdbuf_7qG2_000, __MMX_WriteByte_7qG2_i2cAddr_7qG2_000, __MMX_WriteByte_7qG2_location_7qG2_000, __MMX_WriteByte_7qG2_data_7qG2_000
+10	348	9	#line 348 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	348	9	#line 348 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	351	9	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	9		set __MMX_WriteByte_7qG2_loop_7qG2_000, 32
+10	351	12	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	351	12	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	351	12	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	12		mov __unsigned_stack_001MMX_WriteByte, __MMX_WriteByte_7qG2_loop_7qG2_000
+10	351	14	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	351	14	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	14		set __D0MMX_WriteByte, 32
+10	351	17	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	17		cmp 4, __zfMMX_WriteByte, __unsigned_stack_001MMX_WriteByte, __D0MMX_WriteByte
+10	351	21	#line 351 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	21		mov __D0MMX_WriteByte, __zfMMX_WriteByte
+10	352	24	#line 352 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	353	24		brtst 4, __NXC_Label_999, __zfMMX_WriteByte
+10	352	27	#line 352 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	353	27	#pragma macro 23
+10	353	27		acquire __CLSCSMutex0
+10	353	28		acquire __CLSCSMutex1
+10	353	29		acquire __CLSCSMutex2
+10	353	30		acquire __CLSCSMutex3
+10	353	31		mov __CLSCSArgs0.Port, __MMX_WriteByte_7qG2_port_7qG2_000
+10	353	33		syscall 23, __CLSCSArgs0
+10	353	36		mov __MMX_WriteByte_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+10	353	39		mov __D0MMX_WriteByte, __CLSCSArgs0.Result
+10	353	42		release __CLSCSMutex0
+10	353	43		release __CLSCSMutex1
+10	353	44		release __CLSCSMutex2
+10	353	45		release __CLSCSMutex3
+10	10460	46	#line 10460 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	46	#line 352 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	353	46		mov __MMX_WriteByte_7qG2_loop_7qG2_000, __D0MMX_WriteByte
+10	352	48	#line 352 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	352	48	#line 352 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	356	48	#line 356 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	357	48		jmp __NXC_Label_998
+10	356	50	#line 356 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	356	50	#line 356 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	357	50	#pragma macro 25
+10	357	50		acquire __CLSWMutex0
+10	357	51		acquire __CLSWMutex1
+10	357	52		acquire __CLSWMutex2
+10	357	53		acquire __CLSWMutex3
+10	357	54		mov __CLSWArgs0.Port, __MMX_WriteByte_7qG2_port_7qG2_000
+10	357	57		mov __CLSWArgs0.ReturnLen, __constVal0
+10	357	59		mov __CLSWArgs0.Buffer, __MMX_WriteByte_7qG2_cmdbuf_7qG2_000
+10	357	61		syscall 21, __CLSWArgs0
+10	357	64		mov __D0MMX_WriteByte, __CLSWArgs0.Result
+10	357	67		release __CLSWMutex0
+10	357	68		release __CLSWMutex1
+10	357	69		release __CLSWMutex2
+10	357	70		release __CLSWMutex3
+10	10472	71	#line 10472 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	356	71	#line 356 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	357	71		mov __MMX_WriteByte_7qG2_n_7qG2_000, __D0MMX_WriteByte
+10	356	73	#line 356 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	356	73	#line 356 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	358	73	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	73		set __MMX_WriteByte_7qG2_loop_7qG2_000, 32
+10	358	76	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	358	76	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	358	76	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	76		mov __unsigned_stack_001MMX_WriteByte, __MMX_WriteByte_7qG2_loop_7qG2_000
+10	358	78	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	358	78	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	78		set __D0MMX_WriteByte, 32
+10	358	81	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	81		cmp 4, __zfMMX_WriteByte, __unsigned_stack_001MMX_WriteByte, __D0MMX_WriteByte
+10	358	85	#line 358 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	85		mov __D0MMX_WriteByte, __zfMMX_WriteByte
+10	359	88	#line 359 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	360	88		brtst 4, __NXC_Label_1009, __zfMMX_WriteByte
+10	359	91	#line 359 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	360	91	#pragma macro 23
+10	360	91		acquire __CLSCSMutex0
+10	360	92		acquire __CLSCSMutex1
+10	360	93		acquire __CLSCSMutex2
+10	360	94		acquire __CLSCSMutex3
+10	360	95		mov __CLSCSArgs0.Port, __MMX_WriteByte_7qG2_port_7qG2_000
+10	360	97		syscall 23, __CLSCSArgs0
+10	360	100		mov __MMX_WriteByte_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+10	360	103		mov __D0MMX_WriteByte, __CLSCSArgs0.Result
+10	360	106		release __CLSCSMutex0
+10	360	107		release __CLSCSMutex1
+10	360	108		release __CLSCSMutex2
+10	360	109		release __CLSCSMutex3
+10	10502	110	#line 10502 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	110	#line 359 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	360	110		mov __MMX_WriteByte_7qG2_loop_7qG2_000, __D0MMX_WriteByte
+10	359	112	#line 359 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	359	112	#line 359 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	361	112	#line 361 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	362	112		jmp __NXC_Label_1008
+10	361	114	#line 361 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	362	114	#line 362 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	363	114		mov __DU0MMX_WriteByte, __MMX_WriteByte_7qG2_n_7qG2_000
+10	362	116	#line 362 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	363	116		subret __MMX_WriteByte_return
+10	362	118	#line 362 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	364	118	#line 364 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+10	365	118		subret __MMX_WriteByte_return
+11	366	0	#line 366 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	367	0		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_MMX_Init, __MMX_Init_7qG2_port_7qG2_000
+11	366	2	#line 366 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	368	2	#line 368 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	369	2		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_MMX_Init, __constVal1
+11	3758	4	#line 3758 "NXCDefs.h"
+11	3759	4		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_MMX_Init
+11	3758	6	#line 3758 "NXCDefs.h"
+11	3758	6	#line 3758 "NXCDefs.h"
+11	3759	6		mov __DU0SetSensorLowspeed_inline_MMX_Init, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_MMX_Init
+11	3758	8	#line 3758 "NXCDefs.h"
+11	3759	8		tst 5, __zfSetSensorLowspeed_inline_MMX_Init, __DU0SetSensorLowspeed_inline_MMX_Init
+11	3758	11	#line 3758 "NXCDefs.h"
+11	3759	11		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_MMX_Init
+11	3758	14	#line 3758 "NXCDefs.h"
+11	3759	14		set __D0SetSensorLowspeed_inline_MMX_Init, 11
+11	3758	17	#line 3758 "NXCDefs.h"
+11	3759	17		jmp __004__NXC_Label_37
+11	3758	19	#line 3758 "NXCDefs.h"
+11	3759	19		set __D0SetSensorLowspeed_inline_MMX_Init, 10
+11	3758	22	#line 3758 "NXCDefs.h"
+11	3759	22		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, __D0SetSensorLowspeed_inline_MMX_Init
+11	3663	24	#line 3663 "NXCDefs.h"
+11	3664	24		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, 0
+11	3663	28	#line 3663 "NXCDefs.h"
+11	3759	28	#line 3759 "NXCDefs.h"
+11	3759	28	#line 3759 "NXCDefs.h"
+11	3760	28		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_MMX_Init
+11	3759	30	#line 3759 "NXCDefs.h"
+11	3759	30	#line 3759 "NXCDefs.h"
+11	3760	30		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, 0
+11	3759	33	#line 3759 "NXCDefs.h"
+11	3676	33	#line 3676 "NXCDefs.h"
+11	3677	33		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_MMX_Init, 1
+11	3676	37	#line 3676 "NXCDefs.h"
+11	3760	37	#line 3760 "NXCDefs.h"
+11	3760	37	#line 3760 "NXCDefs.h"
+11	3760	37	#line 3760 "NXCDefs.h"
+11	3694	37	#line 3694 "NXCDefs.h"
+11	3695	37	#pragma macro 4
+11	3695	37		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_MMX_Init
+11	3695	39		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+11	10628	42	#line 10628 "NXCDefs.h"
+11	3694	42	#line 3694 "NXCDefs.h"
+11	3761	42	#line 3761 "NXCDefs.h"
+11	368	42	#line 368 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	368	42	#line 368 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	369	42		mov __DU0MMX_Init, __MMX_Init_7qG2_profile_7qG2_000
+11	372	44		brcmp 4, __NXC_Label_1021, __constVal0, __DU0MMX_Init
+11	373	48		brcmp 4, __NXC_Label_1022, __constVal1, __DU0MMX_Init
+11	374	52		brcmp 4, __NXC_Label_1055, __constVal2, __DU0MMX_Init
+11	375	56		jmp __NXC_Label_1056
+11	376	58		jmp __NXC_Label_1020
+11	371	60	#line 371 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	372	60	#line 372 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	373	60		jmp __NXC_Label_1020
+11	372	62	#line 372 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	373	62	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	373	62	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	62		mov __MMX_WriteByte_7qG2_port_7qG2_000, __MMX_Init_7qG2_port_7qG2_000
+11	373	64	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	373	64	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	64		mov __MMX_WriteByte_7qG2_i2cAddr_7qG2_000, __MMX_Init_7qG2_addr_7qG2_000
+11	373	66	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	373	66	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	66		set __MMX_WriteByte_7qG2_location_7qG2_000, 70
+11	373	69	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	373	69	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	69		set __MMX_WriteByte_7qG2_data_7qG2_000, 0
+11	373	72	#line 373 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	72	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	72		subcall MMX_WriteByte, __MMX_WriteByte_return
+11	374	74	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	74	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	74	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	74		mov __MMX_WriteByte_7qG2_port_7qG2_000, __MMX_Init_7qG2_port_7qG2_000
+11	374	76	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	76	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	76		mov __MMX_WriteByte_7qG2_i2cAddr_7qG2_000, __MMX_Init_7qG2_addr_7qG2_000
+11	374	78	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	78	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	78		set __MMX_WriteByte_7qG2_location_7qG2_000, 78
+11	374	81	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	374	81	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	81		set __MMX_WriteByte_7qG2_data_7qG2_000, 0
+11	374	84	#line 374 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	84	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	84		subcall MMX_WriteByte, __MMX_WriteByte_return
+11	375	86	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	86	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	86	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	86		mov __MMX_WriteByte_7qG2_port_7qG2_000, __MMX_Init_7qG2_port_7qG2_000
+11	375	88	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	88	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	88		mov __MMX_WriteByte_7qG2_i2cAddr_7qG2_000, __MMX_Init_7qG2_addr_7qG2_000
+11	375	90	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	90	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	90		set __MMX_WriteByte_7qG2_location_7qG2_000, 122
+11	375	93	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	375	93	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	93		set __MMX_WriteByte_7qG2_data_7qG2_000, 0
+11	375	96	#line 375 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	96	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	377	96		subcall MMX_WriteByte, __MMX_WriteByte_return
+11	376	98	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	98	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	98	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	377	98		mov __MMX_WriteByte_7qG2_port_7qG2_000, __MMX_Init_7qG2_port_7qG2_000
+11	376	100	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	100	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	377	100		mov __MMX_WriteByte_7qG2_i2cAddr_7qG2_000, __MMX_Init_7qG2_addr_7qG2_000
+11	376	102	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	102	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	377	102		set __MMX_WriteByte_7qG2_location_7qG2_000, 123
+11	376	105	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	376	105	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	377	105		set __MMX_WriteByte_7qG2_data_7qG2_000, 0
+11	376	108	#line 376 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	377	108	#line 377 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	378	108		subcall MMX_WriteByte, __MMX_WriteByte_return
+11	377	110	#line 377 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	378	110		mov __DU0MMX_Init, __DU0MMX_WriteByte
+11	377	112	#line 377 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	378	112	#line 378 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	379	112		jmp __NXC_Label_1020
+11	378	114	#line 378 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	380	114	#line 380 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	381	114	#line 381 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	382	114		jmp __NXC_Label_1020
+11	381	116	#line 381 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	382	116	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	382	116	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	116		set __signed_stack_001MMX_Init, 0
+11	382	119	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	382	119	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	119		set __signed_stack_002MMX_Init, 24
+11	382	122	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	382	122	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	122		strcat __strbufMMX_Init, __constStr0009
+11	382	126	#line 382 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	126		set __D0MMX_Init, 0
+11	383	129	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	129		acquire __TextOutMutex
+11	383	130	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	130		mov __TextOutArgs.Location.X, __signed_stack_001MMX_Init
+11	383	133	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	133		mov __TextOutArgs.Location.Y, __signed_stack_002MMX_Init
+11	383	136	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	136		mov __TextOutArgs.Options, __D0MMX_Init
+11	383	139	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	139		mov __TextOutArgs.Text, __strbufMMX_Init
+11	383	141	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	141		syscall 13, __TextOutArgs
+11	383	144	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	144		mov __D0MMX_Init, __TextOutArgs.Result
+11	383	147	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	147		release __TextOutMutex
+11	383	148	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	148	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	148		set __signed_stack_001MMX_Init, 0
+11	383	151	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	151	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	151		set __signed_stack_002MMX_Init, 16
+11	383	154	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	383	154	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	154		strcat __strbufMMX_Init, __constStr0010
+11	383	158	#line 383 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	158		set __D0MMX_Init, 0
+11	384	161	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	161		acquire __TextOutMutex
+11	384	162	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	162		mov __TextOutArgs.Location.X, __signed_stack_001MMX_Init
+11	384	165	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	165		mov __TextOutArgs.Location.Y, __signed_stack_002MMX_Init
+11	384	168	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	168		mov __TextOutArgs.Options, __D0MMX_Init
+11	384	171	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	171		mov __TextOutArgs.Text, __strbufMMX_Init
+11	384	173	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	173		syscall 13, __TextOutArgs
+11	384	176	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	176		mov __D0MMX_Init, __TextOutArgs.Result
+11	384	179	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	179		release __TextOutMutex
+11	384	180	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	180	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	180		set __signed_stack_001MMX_Init, 0
+11	384	183	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	183	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	183		set __signed_stack_002MMX_Init, 8
+11	384	186	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	384	186	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	186		strcat __strbufMMX_Init, __constStr0011
+11	384	190	#line 384 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	190		set __D0MMX_Init, 0
+11	385	193	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	193		acquire __TextOutMutex
+11	385	194	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	194		mov __TextOutArgs.Location.X, __signed_stack_001MMX_Init
+11	385	197	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	197		mov __TextOutArgs.Location.Y, __signed_stack_002MMX_Init
+11	385	200	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	200		mov __TextOutArgs.Options, __D0MMX_Init
+11	385	203	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	203		mov __TextOutArgs.Text, __strbufMMX_Init
+11	385	205	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	205		syscall 13, __TextOutArgs
+11	385	208	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	208		mov __D0MMX_Init, __TextOutArgs.Result
+11	385	211	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	211		release __TextOutMutex
+11	385	212	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	212	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	212		set __signed_stack_001MMX_Init, 0
+11	385	215	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	215	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	215		set __signed_stack_002MMX_Init, 0
+11	385	218	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	385	218	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	218		strcat __strbufMMX_Init, __constStr0012
+11	385	222	#line 385 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	222		set __D0MMX_Init, 0
+11	386	225	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	225		acquire __TextOutMutex
+11	386	226	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	226		mov __TextOutArgs.Location.X, __signed_stack_001MMX_Init
+11	386	229	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	229		mov __TextOutArgs.Location.Y, __signed_stack_002MMX_Init
+11	386	232	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	232		mov __TextOutArgs.Options, __D0MMX_Init
+11	386	235	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	235		mov __TextOutArgs.Text, __strbufMMX_Init
+11	386	237	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	237		syscall 13, __TextOutArgs
+11	386	240	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	240		mov __D0MMX_Init, __TextOutArgs.Result
+11	386	243	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	243		release __TextOutMutex
+11	386	244	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	244	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	244		set __signed_stack_001MMX_Init, 440
+11	386	247	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	247	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	247		set __signed_stack_002MMX_Init, 200
+11	386	250	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	250	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	250		set __signed_stack_003MMX_Init, 4
+11	386	253	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	386	253	#line 386 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	253		set __D0MMX_Init, 0
+11	387	256	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	256		acquire __SPTArgsMutex
+11	387	257	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	257		mov __SPTArgs.Frequency, __signed_stack_001MMX_Init
+11	387	260	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	260		mov __SPTArgs.Duration, __signed_stack_002MMX_Init
+11	387	263	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	263		mov __SPTArgs.Volume, __signed_stack_003MMX_Init
+11	387	266	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	266		mov __SPTArgs.Loop, __D0MMX_Init
+11	387	269	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	269		syscall 10, __SPTArgs
+11	387	272	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	272		mov __D0MMX_Init, __SPTArgs.Result
+11	387	275	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	275		release __SPTArgsMutex
+11	387	276	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	276	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	387	276	#line 387 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	7921	276	#line 7921 "NXCDefs.h"
+11	7922	276		wait 500
+11	7921	278	#line 7921 "NXCDefs.h"
+11	388	278	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	278	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	389	278		set __signed_stack_001MMX_Init, 440
+11	388	281	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	281	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	389	281		set __signed_stack_002MMX_Init, 200
+11	388	284	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	284	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	389	284		set __signed_stack_003MMX_Init, 4
+11	388	287	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	388	287	#line 388 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	389	287		set __D0MMX_Init, 0
+11	389	290	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	290		acquire __SPTArgsMutex
+11	389	291	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	291		mov __SPTArgs.Frequency, __signed_stack_001MMX_Init
+11	389	294	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	294		mov __SPTArgs.Duration, __signed_stack_002MMX_Init
+11	389	297	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	297		mov __SPTArgs.Volume, __signed_stack_003MMX_Init
+11	389	300	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	300		mov __SPTArgs.Loop, __D0MMX_Init
+11	389	303	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	303		syscall 10, __SPTArgs
+11	389	306	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	306		mov __D0MMX_Init, __SPTArgs.Result
+11	389	309	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	309		release __SPTArgsMutex
+11	389	310	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	389	310	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	310		set __signed_stack_001MMX_Init, 3
+11	389	313	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	389	313	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	313		set __D0MMX_Init, 1
+11	389	316	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	316		acquire __RBtnMutex
+11	389	317	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	317		mov __RBtnArgs.Index, __signed_stack_001MMX_Init
+11	389	320	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	320		mov __RBtnArgs.Reset, __D0MMX_Init
+11	389	323	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	323		syscall 20, __RBtnArgs
+11	389	326	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	326		mov __D0MMX_Init, __RBtnArgs.Pressed
+11	389	329	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	329		release __RBtnMutex
+11	389	330	#line 389 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	330		not __D0MMX_Init, __D0MMX_Init
+11	390	333	#line 390 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	391	333		tst 5, __zfMMX_Init, __D0MMX_Init
+11	390	336	#line 390 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	391	336		brtst 4, __NXC_Label_1100, __zfMMX_Init
+11	390	339	#line 390 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	390	339	#line 390 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	391	339		jmp __NXC_Label_1099
+11	390	341	#line 390 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	7934	341	#line 7934 "NXCDefs.h"
+11	7935	341		set __D0StopAllTasks_inline_MMX_Init, 1
+11	7934	344	#line 7934 "NXCDefs.h"
+11	7935	344		stop __D0StopAllTasks_inline_MMX_Init
+11	7934	346	#line 7934 "NXCDefs.h"
+11	391	346	#line 391 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	392	346	#line 392 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	392	346	#line 392 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	395	346	#line 395 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	395	346	#line 395 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+11	396	346		subret __MMX_Init_return
+12	488	0	#line 488 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	488	0	#line 488 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	494	0	#line 494 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	495	0		set __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, 0
+12	494	3	#line 494 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	494	3	#line 494 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	495	3	#line 495 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	495	3	#line 495 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	496	3		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal0, __constVal8
+12	495	7	#line 495 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	497	7	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	497	7	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	498	7		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal1
+12	497	11	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	497	11	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	498	11		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_relative_7qG2_000
+12	497	13	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	497	13	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	498	13		set __D0MMX_Run_Tachometer, 1
+12	497	16	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	498	16		cmp 4, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	497	20	#line 497 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	498	20		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	498	22	#line 498 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	499	22		brtst 4, __NXC_Label_1296, __zfMMX_Run_Tachometer
+12	504	25	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	504	25	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	25		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal4
+12	504	29	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	504	29	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	29		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_direction_7qG2_000
+12	504	31	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	504	31	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	31		set __D0MMX_Run_Tachometer, 1
+12	504	34	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	34		cmp 4, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	504	38	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	38		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	504	40	#line 504 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	40		brtst 4, __NXC_Label_1301, __zfMMX_Run_Tachometer
+12	505	43	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	43		mov __MMX_Run_Tachometer_7qG2_tch_7qG2_000, __MMX_Run_Tachometer_7qG2_tachometer_7qG2_000
+12	505	45	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	45	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	45	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	45	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	45		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_direction_7qG2_000
+12	505	47	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	47	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	47		set __D0MMX_Run_Tachometer, 1
+12	505	50	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	50		cmp 5, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	505	54	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	54		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	505	56	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	56		brtst 4, __NXC_Label_1306, __zfMMX_Run_Tachometer
+12	505	59	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	59	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	59	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	505	59	#line 505 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	59		mul __MMX_Run_Tachometer_7qG2_tch_7qG2_000, __MMX_Run_Tachometer_7qG2_tachometer_7qG2_000, __constValNeg1
+12	506	63	#line 506 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	63	#line 506 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	506	63	#line 506 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	511	63	#line 511 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	512	63		jmp __NXC_Label_1313
+12	512	65	#line 512 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	513	65		mov __MMX_Run_Tachometer_7qG2_tch_7qG2_000, __MMX_Run_Tachometer_7qG2_tachometer_7qG2_000
+12	512	67	#line 512 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	512	67	#line 512 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	514	67	#line 514 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	514	67	#line 514 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	514	67	#line 514 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	67	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	67	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	67		and __MMX_Run_Tachometer_7qG2_stp1_7qG2_000, __constVal255, __MMX_Run_Tachometer_7qG2_tch_7qG2_000
+12	515	71	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	71	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	71	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	71		set __signed_stack_001MMX_Run_Tachometer, 255
+12	515	74	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	74	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	74	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	74	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	74	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	74		and __signed_stack_002MMX_Run_Tachometer, __constVal65280, __MMX_Run_Tachometer_7qG2_tch_7qG2_000
+12	515	78	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	78	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	515	78	#line 515 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	78		asr __D0MMX_Run_Tachometer, __signed_stack_002MMX_Run_Tachometer, __constVal8
+12	516	82	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	82		and __MMX_Run_Tachometer_7qG2_stp2_7qG2_000, __signed_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	516	86	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	86	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	86	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	86		set __signed_stack_001MMX_Run_Tachometer, 255
+12	516	89	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	89	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	89	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	89	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	89	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	89		and __signed_stack_002MMX_Run_Tachometer, __constVal16711680, __MMX_Run_Tachometer_7qG2_tch_7qG2_000
+12	516	93	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	93	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	516	93	#line 516 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	93		asr __D0MMX_Run_Tachometer, __signed_stack_002MMX_Run_Tachometer, __constVal16
+12	517	97	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	518	97		and __MMX_Run_Tachometer_7qG2_stp3_7qG2_000, __signed_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	517	101	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	101	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	101	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	518	101		set __signed_stack_001MMX_Run_Tachometer, 255
+12	517	104	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	104	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	104	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	104	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	104	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	518	104		and __signed_stack_002MMX_Run_Tachometer, __constVal4278190080, __MMX_Run_Tachometer_7qG2_tch_7qG2_000
+12	517	108	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	108	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	517	108	#line 517 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	518	108		asr __D0MMX_Run_Tachometer, __signed_stack_002MMX_Run_Tachometer, __constVal24
+12	519	112	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	112		and __MMX_Run_Tachometer_7qG2_stp4_7qG2_000, __signed_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	519	116	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	519	116	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	519	116	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	116		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_next_action_7qG2_000
+12	519	118	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	519	118	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	118		set __D0MMX_Run_Tachometer, 1
+12	519	121	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	121		cmp 4, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	519	125	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	125		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	519	127	#line 519 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	127		brtst 4, __NXC_Label_1338, __zfMMX_Run_Tachometer
+12	520	130	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	130	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	521	130		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal16
+12	520	134	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	134	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	134	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	521	134		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_next_action_7qG2_000
+12	520	136	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	520	136	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	521	136		set __D0MMX_Run_Tachometer, 2
+12	520	139	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	521	139		cmp 4, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	520	143	#line 520 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	521	143		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	521	145	#line 521 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	522	145		brtst 4, __NXC_Label_1343, __zfMMX_Run_Tachometer
+12	522	148	#line 522 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	522	148	#line 522 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	523	148		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal16
+12	522	152	#line 522 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	523	152	#line 523 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	523	152	#line 523 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	524	152		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal32
+12	523	156	#line 523 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	524	156	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	524	156	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	525	156		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_motor_number_7qG2_000
+12	524	158	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	524	158	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	525	158		set __D0MMX_Run_Tachometer, 3
+12	524	161	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	525	161		cmp 5, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	524	165	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	525	165		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	524	167	#line 524 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	525	167		brtst 4, __NXC_Label_1350, __zfMMX_Run_Tachometer
+12	526	170	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	170	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	170		or __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000, __constVal128
+12	526	174	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	174	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	174	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	174	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	174	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	174	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	174		and __signed_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_motor_number_7qG2_000, __constVal1
+12	526	178	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	526	178	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	178		set __D0MMX_Run_Tachometer, 0
+12	526	181	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	181		cmp 5, __zfMMX_Run_Tachometer, __signed_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	526	185	#line 526 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	185		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	527	187	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	187		brtst 4, __NXC_Label_1357, __zfMMX_Run_Tachometer
+12	527	190	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	190		mov __MMX_WriteData9_7qG2_port_7qG2_000, __MMX_Run_Tachometer_7qG2_port_7qG2_000
+12	527	192	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	192	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	192		mov __MMX_WriteData9_7qG2_addr_7qG2_000, __MMX_Run_Tachometer_7qG2_addr_7qG2_000
+12	527	194	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	194	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	194		set __MMX_WriteData9_7qG2_data1_7qG2_000, 66
+12	527	197	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	197	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	197		mov __MMX_WriteData9_7qG2_data2_7qG2_000, __MMX_Run_Tachometer_7qG2_stp1_7qG2_000
+12	527	199	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	199	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	199		mov __MMX_WriteData9_7qG2_data3_7qG2_000, __MMX_Run_Tachometer_7qG2_stp2_7qG2_000
+12	527	201	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	201	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	201		mov __MMX_WriteData9_7qG2_data4_7qG2_000, __MMX_Run_Tachometer_7qG2_stp3_7qG2_000
+12	527	203	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	203	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	203		mov __MMX_WriteData9_7qG2_data5_7qG2_000, __MMX_Run_Tachometer_7qG2_stp4_7qG2_000
+12	527	205	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	205	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	205		mov __MMX_WriteData9_7qG2_data6_7qG2_000, __MMX_Run_Tachometer_7qG2_speed_7qG2_000
+12	527	207	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	207	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	207		set __MMX_WriteData9_7qG2_data7_7qG2_000, 0
+12	527	210	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	210	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	210		set __MMX_WriteData9_7qG2_data8_7qG2_000, 0
+12	527	213	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	527	213	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	213		mov __MMX_WriteData9_7qG2_data9_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000
+12	527	215	#line 527 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	528	215	#line 528 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	215		subcall MMX_WriteData9, __MMX_WriteData9_return
+12	528	217	#line 528 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	217		mov __DU0MMX_Run_Tachometer, __DU0MMX_WriteData9
+12	528	219	#line 528 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	219	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	219	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	219	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	219	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	219	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	219		and __signed_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_motor_number_7qG2_000, __constVal2
+12	529	223	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	529	223	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	223		set __D0MMX_Run_Tachometer, 0
+12	529	226	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	226		cmp 5, __zfMMX_Run_Tachometer, __signed_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	529	230	#line 529 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	230		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	530	232	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	232		brtst 4, __NXC_Label_1384, __zfMMX_Run_Tachometer
+12	530	235	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	235		mov __MMX_WriteData9_7qG2_port_7qG2_000, __MMX_Run_Tachometer_7qG2_port_7qG2_000
+12	530	237	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	237	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	237		mov __MMX_WriteData9_7qG2_addr_7qG2_000, __MMX_Run_Tachometer_7qG2_addr_7qG2_000
+12	530	239	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	239	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	239		set __MMX_WriteData9_7qG2_data1_7qG2_000, 74
+12	530	242	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	242	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	242		mov __MMX_WriteData9_7qG2_data2_7qG2_000, __MMX_Run_Tachometer_7qG2_stp1_7qG2_000
+12	530	244	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	244	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	244		mov __MMX_WriteData9_7qG2_data3_7qG2_000, __MMX_Run_Tachometer_7qG2_stp2_7qG2_000
+12	530	246	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	246	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	246		mov __MMX_WriteData9_7qG2_data4_7qG2_000, __MMX_Run_Tachometer_7qG2_stp3_7qG2_000
+12	530	248	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	248	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	248		mov __MMX_WriteData9_7qG2_data5_7qG2_000, __MMX_Run_Tachometer_7qG2_stp4_7qG2_000
+12	530	250	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	250	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	250		mov __MMX_WriteData9_7qG2_data6_7qG2_000, __MMX_Run_Tachometer_7qG2_speed_7qG2_000
+12	530	252	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	252	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	252		set __MMX_WriteData9_7qG2_data7_7qG2_000, 0
+12	530	255	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	255	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	255		set __MMX_WriteData9_7qG2_data8_7qG2_000, 0
+12	530	258	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	530	258	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	258		mov __MMX_WriteData9_7qG2_data9_7qG2_000, __MMX_Run_Tachometer_7qG2_ctrl_7qG2_000
+12	530	260	#line 530 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	531	260	#line 531 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	532	260		subcall MMX_WriteData9, __MMX_WriteData9_return
+12	531	262	#line 531 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	532	262		mov __DU0MMX_Run_Tachometer, __DU0MMX_WriteData9
+12	531	264	#line 531 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	532	264	#line 532 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	532	264	#line 532 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	533	264		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_motor_number_7qG2_000
+12	532	266	#line 532 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	532	266	#line 532 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	533	266		set __D0MMX_Run_Tachometer, 3
+12	532	269	#line 532 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	533	269		cmp 4, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	532	273	#line 532 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	533	273		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	533	275	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	534	275		brtst 4, __NXC_Label_1409, __zfMMX_Run_Tachometer
+12	533	278	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	534	278		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Run_Tachometer_7qG2_port_7qG2_000
+12	533	280	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	533	280	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	534	280		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Run_Tachometer_7qG2_addr_7qG2_000
+12	533	282	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	533	282	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	534	282		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 83
+12	533	285	#line 533 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	534	285	#line 534 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	535	285		subcall MMX_SendCommand, __MMX_SendCommand_return
+12	534	287	#line 534 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	535	287		mov __D0MMX_Run_Tachometer, __D0MMX_SendCommand
+12	534	289	#line 534 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	536	289	#line 536 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	536	289	#line 536 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	537	289		mov __MMX_FlushPort_7qG2_port_7qG2_000, __MMX_Run_Tachometer_7qG2_port_7qG2_000
+12	536	291	#line 536 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	537	291	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	538	291		subcall MMX_FlushPort, __MMX_FlushPort_return
+12	537	294	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	537	294	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	538	294		mov __unsigned_stack_001MMX_Run_Tachometer, __MMX_Run_Tachometer_7qG2_wait_for_completion_7qG2_000
+12	537	296	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	537	296	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	538	296		set __D0MMX_Run_Tachometer, 1
+12	537	299	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	538	299		cmp 4, __zfMMX_Run_Tachometer, __unsigned_stack_001MMX_Run_Tachometer, __D0MMX_Run_Tachometer
+12	537	303	#line 537 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	538	303		mov __D0MMX_Run_Tachometer, __zfMMX_Run_Tachometer
+12	538	305	#line 538 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	539	305		brtst 4, __NXC_Label_1420, __zfMMX_Run_Tachometer
+12	538	308	#line 538 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	538	308	#line 538 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	7921	308	#line 7921 "NXCDefs.h"
+12	7922	308		wait 50
+12	7921	310	#line 7921 "NXCDefs.h"
+12	539	310	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	539	310	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	540	310		mov __MMX_WaitUntilTachoDone_7qG2_port_7qG2_000, __MMX_Run_Tachometer_7qG2_port_7qG2_000
+12	539	312	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	539	312	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	540	312		mov __MMX_WaitUntilTachoDone_7qG2_addr_7qG2_000, __MMX_Run_Tachometer_7qG2_addr_7qG2_000
+12	539	314	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	539	314	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	540	314		mov __MMX_WaitUntilTachoDone_7qG2_motor_number_7qG2_000, __MMX_Run_Tachometer_7qG2_motor_number_7qG2_000
+12	539	316	#line 539 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	540	316	#line 540 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	541	316		subcall MMX_WaitUntilTachoDone, __MMX_WaitUntilTachoDone_return
+12	540	319	#line 540 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	541	319	#line 541 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	541	319	#line 541 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	542	319		mov __MMX_FlushPort_7qG2_port_7qG2_000, __MMX_Run_Tachometer_7qG2_port_7qG2_000
+12	541	321	#line 541 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	543	321	#line 543 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	544	321		subcall MMX_FlushPort, __MMX_FlushPort_return
+12	543	324	#line 543 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	544	324	#line 544 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	545	324		set __D0MMX_Run_Tachometer, 0
+12	544	327	#line 544 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	545	327		subret __MMX_Run_Tachometer_return
+12	544	329	#line 544 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	546	329	#line 546 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+12	547	329		subret __MMX_Run_Tachometer_return
+13	555	0	#line 555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	556	0		mov __MMX_Run_Tachometer_7qG2_port_7qG2_000, __MMX_Run_Degrees_7qG2_port_7qG2_000
+13	555	2	#line 555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	555	2	#line 555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	556	2		mov __MMX_Run_Tachometer_7qG2_addr_7qG2_000, __MMX_Run_Degrees_7qG2_addr_7qG2_000
+13	555	4	#line 555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	555	4	#line 555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	556	4		mov __MMX_Run_Tachometer_7qG2_motor_number_7qG2_000, __MMX_Run_Degrees_7qG2_motor_number_7qG2_000
+13	555	6	#line 555 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	556	6	#line 556 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	557	6		mov __MMX_Run_Tachometer_7qG2_direction_7qG2_000, __MMX_Run_Degrees_7qG2_direction_7qG2_000
+13	556	8	#line 556 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	556	8	#line 556 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	557	8		mov __MMX_Run_Tachometer_7qG2_speed_7qG2_000, __MMX_Run_Degrees_7qG2_speed_7qG2_000
+13	556	10	#line 556 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	556	10	#line 556 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	557	10		mov __MMX_Run_Tachometer_7qG2_tachometer_7qG2_000, __MMX_Run_Degrees_7qG2_degrees_7qG2_000
+13	556	12	#line 556 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	557	12	#line 557 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	558	12		set __MMX_Run_Tachometer_7qG2_relative_7qG2_000, 1
+13	557	15	#line 557 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	557	15	#line 557 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	558	15		mov __MMX_Run_Tachometer_7qG2_wait_for_completion_7qG2_000, __MMX_Run_Degrees_7qG2_wait_for_completion_7qG2_000
+13	557	17	#line 557 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	557	17	#line 557 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	558	17		mov __MMX_Run_Tachometer_7qG2_next_action_7qG2_000, __MMX_Run_Degrees_7qG2_next_action_7qG2_000
+13	557	19	#line 557 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	558	19	#line 558 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	559	19		subcall MMX_Run_Tachometer, __MMX_Run_Tachometer_return
+13	558	21	#line 558 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	558	21	#line 558 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	559	21		subret __MMX_Run_Degrees_return
+13	558	23	#line 558 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	560	23	#line 560 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+13	561	23		subret __MMX_Run_Degrees_return
+14	584	0	#line 584 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	585	0		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_next_action_7qG2_000
+14	584	2	#line 584 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	584	2	#line 584 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	585	2		set __D0MMX_Stop, 1
+14	584	5	#line 584 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	585	5		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	584	9	#line 584 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	585	9		mov __D0MMX_Stop, __zfMMX_Stop
+14	585	11	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	11		brtst 5, __NXC_Label_1475, __zfMMX_Stop
+14	585	14	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	14		mov __signed_stack_001MMX_Stop, __D0MMX_Stop
+14	585	16	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	16		mov __unsigned_stack_002MMX_Stop, __MMX_Stop_7qG2_next_action_7qG2_000
+14	585	18	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	585	18	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	18		set __D0MMX_Stop, 2
+14	585	21	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	21		cmp 4, __zfMMX_Stop, __unsigned_stack_002MMX_Stop, __D0MMX_Stop
+14	585	25	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	585	25	#line 585 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	25		or __D0MMX_Stop, __signed_stack_001MMX_Stop, __zfMMX_Stop
+14	586	29	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	29		tst 5, __zfMMX_Stop, __D0MMX_Stop
+14	586	32	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	32		brtst 4, __NXC_Label_1478, __zfMMX_Stop
+14	586	35	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	35		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_motor_number_7qG2_000
+14	586	37	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	586	37	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	37		set __D0MMX_Stop, 1
+14	586	40	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	40		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	586	44	#line 586 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	44		mov __D0MMX_Stop, __zfMMX_Stop
+14	587	46	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	588	46		brtst 4, __NXC_Label_1481, __zfMMX_Stop
+14	587	49	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	588	49		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	587	51	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	51	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	588	51		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Stop_7qG2_addr_7qG2_000
+14	587	53	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	587	53	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	588	53		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 65
+14	587	56	#line 587 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	588	56	#line 588 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	589	56		subcall MMX_SendCommand, __MMX_SendCommand_return
+14	588	58	#line 588 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	589	58		mov __D0MMX_Stop, __D0MMX_SendCommand
+14	588	60	#line 588 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	589	60	#line 589 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	589	60	#line 589 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	590	60		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_motor_number_7qG2_000
+14	589	62	#line 589 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	589	62	#line 589 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	590	62		set __D0MMX_Stop, 2
+14	589	65	#line 589 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	590	65		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	589	69	#line 589 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	590	69		mov __D0MMX_Stop, __zfMMX_Stop
+14	590	71	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	591	71		brtst 4, __NXC_Label_1490, __zfMMX_Stop
+14	590	74	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	591	74		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	590	76	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	590	76	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	591	76		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Stop_7qG2_addr_7qG2_000
+14	590	78	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	590	78	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	591	78		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 66
+14	590	81	#line 590 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	591	81	#line 591 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	592	81		subcall MMX_SendCommand, __MMX_SendCommand_return
+14	591	83	#line 591 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	592	83		mov __D0MMX_Stop, __D0MMX_SendCommand
+14	591	85	#line 591 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	592	85	#line 592 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	592	85	#line 592 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	593	85		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_motor_number_7qG2_000
+14	592	87	#line 592 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	592	87	#line 592 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	593	87		set __D0MMX_Stop, 3
+14	592	90	#line 592 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	593	90		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	592	94	#line 592 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	593	94		mov __D0MMX_Stop, __zfMMX_Stop
+14	593	96	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	594	96		brtst 4, __NXC_Label_1499, __zfMMX_Stop
+14	593	99	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	594	99		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	593	101	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	593	101	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	594	101		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Stop_7qG2_addr_7qG2_000
+14	593	103	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	593	103	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	594	103		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 67
+14	593	106	#line 593 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	594	106	#line 594 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	595	106		subcall MMX_SendCommand, __MMX_SendCommand_return
+14	594	108	#line 594 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	595	108		mov __D0MMX_Stop, __D0MMX_SendCommand
+14	594	110	#line 594 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	595	110	#line 595 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	596	110	#line 596 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	110		jmp __NXC_Label_1506
+14	596	112	#line 596 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	112		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_motor_number_7qG2_000
+14	596	114	#line 596 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	596	114	#line 596 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	114		set __D0MMX_Stop, 1
+14	596	117	#line 596 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	117		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	596	121	#line 596 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	121		mov __D0MMX_Stop, __zfMMX_Stop
+14	597	123	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	598	123		brtst 4, __NXC_Label_1509, __zfMMX_Stop
+14	597	126	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	598	126		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	597	128	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	128	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	598	128		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Stop_7qG2_addr_7qG2_000
+14	597	130	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	597	130	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	598	130		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 97
+14	597	133	#line 597 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	598	133	#line 598 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	599	133		subcall MMX_SendCommand, __MMX_SendCommand_return
+14	598	135	#line 598 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	599	135		mov __D0MMX_Stop, __D0MMX_SendCommand
+14	598	137	#line 598 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	599	137	#line 599 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	599	137	#line 599 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	600	137		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_motor_number_7qG2_000
+14	599	139	#line 599 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	599	139	#line 599 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	600	139		set __D0MMX_Stop, 2
+14	599	142	#line 599 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	600	142		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	599	146	#line 599 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	600	146		mov __D0MMX_Stop, __zfMMX_Stop
+14	600	148	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	601	148		brtst 4, __NXC_Label_1518, __zfMMX_Stop
+14	600	151	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	601	151		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	600	153	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	600	153	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	601	153		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Stop_7qG2_addr_7qG2_000
+14	600	155	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	600	155	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	601	155		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 98
+14	600	158	#line 600 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	601	158	#line 601 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	602	158		subcall MMX_SendCommand, __MMX_SendCommand_return
+14	601	160	#line 601 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	602	160		mov __D0MMX_Stop, __D0MMX_SendCommand
+14	601	162	#line 601 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	602	162	#line 602 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	602	162	#line 602 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	603	162		mov __unsigned_stack_001MMX_Stop, __MMX_Stop_7qG2_motor_number_7qG2_000
+14	602	164	#line 602 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	602	164	#line 602 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	603	164		set __D0MMX_Stop, 3
+14	602	167	#line 602 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	603	167		cmp 4, __zfMMX_Stop, __unsigned_stack_001MMX_Stop, __D0MMX_Stop
+14	602	171	#line 602 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	603	171		mov __D0MMX_Stop, __zfMMX_Stop
+14	603	173	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	604	173		brtst 4, __NXC_Label_1527, __zfMMX_Stop
+14	603	176	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	604	176		mov __MMX_SendCommand_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	603	178	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	603	178	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	604	178		mov __MMX_SendCommand_7qG2_addr_7qG2_000, __MMX_Stop_7qG2_addr_7qG2_000
+14	603	180	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	603	180	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	604	180		set __MMX_SendCommand_7qG2_cmd_7qG2_000, 99
+14	603	183	#line 603 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	604	183	#line 604 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	605	183		subcall MMX_SendCommand, __MMX_SendCommand_return
+14	604	185	#line 604 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	605	185		mov __D0MMX_Stop, __D0MMX_SendCommand
+14	604	187	#line 604 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	606	187	#line 606 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	606	187	#line 606 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	606	187	#line 606 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	607	187		mov __MMX_FlushPort_7qG2_port_7qG2_000, __MMX_Stop_7qG2_port_7qG2_000
+14	606	189	#line 606 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	607	189	#line 607 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	608	189		subcall MMX_FlushPort, __MMX_FlushPort_return
+14	607	192	#line 607 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	608	192	#line 608 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	609	192		set __D0MMX_Stop, 0
+14	608	195	#line 608 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	609	195		subret __MMX_Stop_return
+14	608	197	#line 608 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	617	197	#line 617 "W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc"
+14	618	197		subret __MMX_Stop_return
+15	33	0	#line 33 "C:\Users\Marcel\AppData\Local\Temp\temp.nxc"
+15	34	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Marcel\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	198	NXTDefs.h
+2	__ReadLSBytesVar	211	NXTDefs.h
+3	MMX_FlushPort	310	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+4	MMX_i2cread_2_bytes	450	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+5	MMX_i2cread_1_byte	580	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+6	MMX_IsTachoDone	786	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+7	MMX_WaitUntilTachoDone	1004	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+8	MMX_SendCommand	1034	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+9	MMX_WriteData9	1164	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+10	MMX_WriteByte	1287	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+11	MMX_Init	1407	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+12	MMX_Run_Tachometer	1755	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+13	MMX_Run_Degrees	2086	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+14	MMX_Stop	2111	W:\20 - Blog\04 - Robotics Series\01 - Posts\01 - Post 1 NXT MMX\NXTMMX-lib.nxc
+15	__initialize_global_data	2310	C:\Users\Marcel\AppData\Local\Temp\temp.nxc
