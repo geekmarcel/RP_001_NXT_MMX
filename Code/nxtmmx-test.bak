@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------------------
+ * Project:   MMX Test Functions
+ * Hardware:  LEGO NXT & Mindsensors MMX
+ * Micro:			ATMEGA328P
+ * IDE:       BricxCC v 3.3
+ *
+ * Name:    	mcp23017.c
+ * Purpose:   Test functions for testing MMX on robot 1.
+ * Date:			28-10-2015
+ * Version:		1.0
+ * Author:		Marcel van der Ven
+ *
+ *
+ * Note(s):
+ *----------------------------------------------------------------------------*/
+
+
+#include "NXTMMX-lib.nxc"
+
+#define SensorPort S1
+const byte Addr = 0x06;
+
+task main()           // main task:
+{
+  int v;
+	long tach;
+	string msg;
+
+	MMX_Init( SensorPort, Addr, 0 );
+
+  while(1)
+  {
+    until(ButtonPressed(BTNCENTER, true))
+    {
+      if(ButtonPressed(BTNLEFT, true))
+      {
+        MMX_Run_Unlimited(SensorPort,
+                       Addr,
+                       MMX_Motor_Both,
+                       MMX_Direction_Reverse,
+                       60);
+      }
+      else if(ButtonPressed(BTNRIGHT, true))
+      {
+        MMX_Run_Unlimited(SensorPort,
+                       Addr,
+                       MMX_Motor_Both,
+                       MMX_Direction_Forward,
+                       60);
+      }
+    
+      Wait(200);
+	     msg = "ORNG Btn to Stop";
+	     TextOut(0, LCD_LINE2, msg, false);
+    }
+
+	   /*
+	    * Stop both the motors,
+	    * while stopping float the motors.
+	    */
+	   MMX_Stop(SensorPort, Addr, MMX_Motor_Both, MMX_Next_Action_Float);
+	   Wait(500);
+   }
+}
